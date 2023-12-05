@@ -1,0 +1,54 @@
+# - open the input.txt file and for each line of the file find the first (and last) digit
+# - concat them into a number per line (String.atol)
+# - summarize all numbers
+# - return the result
+
+fn main() raises:
+    var f: FileHandle = open("input.txt", "r")
+    let content = f.read()
+    f.close()
+    
+    let newline_char = "\n"
+    var pos: Int = 0
+    var prev_pos: Int = 0
+
+    var sum: Int = 0
+    
+    while prev_pos < len(content):
+        pos = content.find(newline_char, prev_pos)
+        if pos == -1:
+            let segment: String = content[prev_pos:]
+            sum += get_first_digit(segment) * 10 + get_first_digit(segment, reversed=True)
+
+            break
+        else:
+            let segment: String = content[prev_pos:prev_pos + pos]
+            sum += get_first_digit(segment) * 10 + get_first_digit(segment, reversed=True)
+            prev_pos = prev_pos + pos + 1
+
+    print(sum)
+
+fn get_first_digit(input: String, reversed: Bool = False) -> Int:
+    var first_digit: Int = 0
+
+    let start: Int
+    let end: Int
+    let step: Int
+
+    if not reversed:
+        start = 0
+        end = len(input)
+        step = 1
+    else:
+        start = len(input)
+        end = -1
+        step = -1
+
+    for i in range(start, end, step):
+        try:
+            first_digit = atol(input[i])
+            break
+        except Error:
+            pass
+
+    return first_digit

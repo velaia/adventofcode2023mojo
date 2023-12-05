@@ -1,0 +1,104 @@
+# - open the input.txt file and for each line of the file find the first (and last) digit
+# - concat them into a number per line (String.atol)
+# - summarize all numbers
+# - return the result
+
+from stdlib_extensions.builtins import list
+from stdlib_extensions.builtins.string import (
+    endswith,
+    rjust,
+    ljust,
+    split,
+    replace,
+    removeprefix,
+    expandtabs,
+    removesuffix,
+    startswith,
+    join,
+    rstrip,
+    lstrip,
+    strip,
+    __str_contains__,
+    _ALL_WHITESPACES,
+)
+
+var txt_to_num = list[String]()
+
+fn main() raises:
+    var f: FileHandle = open("input.txt", "r")
+    let lines = split(f.read(), "\n", 2000)
+    f.close()
+    
+    txt_to_num.append("one")
+    txt_to_num.append("two")
+    txt_to_num.append("three")
+    txt_to_num.append("four")
+    txt_to_num.append("five")
+    txt_to_num.append("six")
+    txt_to_num.append("seven")
+    txt_to_num.append("eight")
+    txt_to_num.append("nine")
+
+    var sum: Int = 0
+
+    for i in range(lines.__len__()):
+        let line = lines[i]
+        if line.__len__() > 0: # last line is empty
+            print("line is", line, "- result is ", get_first_digit(line) * 10 + get_first_digit(line, reversed=True))
+            sum += get_first_digit(line) * 10 + get_first_digit(line, reversed=True)
+
+    print(sum)
+
+fn get_first_digit(input: String, reversed: Bool = False) -> Int:
+    var first_digit: Int = 0
+
+    let start: Int
+    let end: Int
+    let step: Int
+
+    if not reversed:
+        start = 0
+        end = len(input)
+        step = 1
+    else:
+        start = len(input)
+        end = -1
+        step = -1
+
+    for i in range(start, end, step):
+        try:
+            first_digit = get_digit_from_position(input, i)
+            break
+        except Error:
+            pass
+
+    if first_digit == 0:
+        print("input", input)
+
+    return first_digit
+
+
+fn get_digit_from_position(input: String, position: Int) raises -> Int:
+    """
+    Either get the first digit or the first digit name you encounter in a string.
+    """
+    var first_digit: Int = 10
+
+    try:
+        first_digit = atol(input[position])
+    except Error:
+        # it's not a digit, try text
+        pass
+
+    if first_digit == 10 and input[position:].__len__() >= 3: # number names are at least 3 chars long
+        for i in range(txt_to_num.__len__()):
+            if startswith(input, txt_to_num[i], start=position):
+                # print("found:", txt_to_num[i], " digit is: ", i + 1)
+                first_digit = i + 1
+                break
+    
+    if first_digit == 10:
+        raise Error("no digit and no number (in text) found at position")
+
+    return first_digit
+        
