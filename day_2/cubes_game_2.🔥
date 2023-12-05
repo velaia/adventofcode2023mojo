@@ -1,0 +1,68 @@
+# Set of minimum number of cubes with which a game would have been possible
+# then sum of power of these sets?
+
+
+from tensor import Tensor
+from math import max, any_true
+from sys.info import simdwidthof
+
+alias num_colors_type = DType.uint32
+alias simd_width: Int = simdwidthof[num_colors_type]()
+alias simd_bool_width: Int = simdwidthof[DType.bool]()
+
+fn main() raises:
+    var f: FileHandle = open("input.txt", "r")
+    let lines = f.read().split("\n")
+    f.close()
+    var sum_powers: UInt32 = 0
+
+
+
+    for i in range(lines.__len__()):
+        let line = lines[i]
+        if len(line) > 0:
+            var max_values = SIMD[num_colors_type, simd_width](0)
+            let line_values = line.split(": ")
+            let game: Int = atol(line_values[0].split(" ")[1]) # number of the game
+            print("Game: ", game)
+
+            let cube_values_unformatted = line_values[1].split('; ')
+            for j in range(len(cube_values_unformatted)):
+                let cube_values = cv_unformatted_to_tensor[UInt8](cube_values_unformatted[j])
+
+                max_values = max[num_colors_type, simd_width](cube_values, max_values)
+                print("max_values: ", max_values.__str__())
+            
+            let power: UInt32 = max_values[0] * max_values[1] * max_values[2]
+            sum_powers += power
+    
+    print("\n\nSum of the powers of the sets: ", sum_powers)
+
+
+
+
+fn cv_unformatted_to_tensor[type: UInt8](one_draw: String) raises -> SIMD[num_colors_type, simd_width]:
+    var rgb = SIMD[num_colors_type, simd_width]()
+
+    # format: 3 green, 2 red, 3 blue
+    let colors = one_draw.split(", ")
+
+    for i in range(len(colors)):
+        let num_name = colors[i].split(" ")
+
+        let color = num_name[1]
+        let count = num_name[0]
+
+        # print("color", color, " - count", count)
+
+        if color == "red":
+            rgb[0] = atol(count)
+        elif color == "green":
+            rgb[1] = atol(count)
+        else:
+            rgb[2] = atol(count)
+
+    print(rgb.__str__())
+
+    return rgb
+    
