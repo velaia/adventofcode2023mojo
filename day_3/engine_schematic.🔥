@@ -98,4 +98,3 @@ fn is_symbol(elem: SIMD[char_type, 1], non_symbols: SIMD[char_type, simd_width])
             found = False
             break
     return found
-        
