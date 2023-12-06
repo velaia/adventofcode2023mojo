@@ -2,15 +2,20 @@ from tensor import Tensor, TensorShape
 from sys.info import simdwidthof
 from utils.index import Index
 from utils.vector import DynamicVector
-from math import clamp, sqrt
+from math import clamp, sqrt, abs
+import benchmark
 
 alias char_type = DType.uint8 # ASCII chars, uint8 = 256 should suffice
 alias occurence_type = DType.int16
 alias simd_width = simdwidthof[char_type]()
 alias Occurence = SIMD[char_type, 2]
 
-
 fn main() raises:
+    let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=0.5)
+    report.print()
+
+
+fn calculate():
     let width: Int = 140
     let height: Int = 140
     let gear_value = ord("*")
@@ -34,91 +39,99 @@ fn main() raises:
     var sum_gear_ratios: Int = 0
 
     # create a 2D "map" of the input
-    var map = Tensor[char_type]().fromfile("input.txt")
-    let desired_shape = TensorShape(height, width + 1)
-    map.ireshape(desired_shape)
-    for i in range(height):
-        for j in range(width + 1):
-            let val = map[Index(i, j)]
-            if val == gear_value:
-                occurrence[0] = i
-                occurrence[1] = j
-                occurrences_gear.append(SIMD[char_type, 2](occurrence[0], occurrence[1]))
+    try:
+        var map = Tensor[char_type]().fromfile("input.txt")
     
-    # collect potential part number occurrences
-    for i in range(height):
-        for j in range(width + 1):
-            let val = map[Index(i, j)]
-            if val >= low_end and val <= high_end:
-                if dig_counter == 0:
-                    num_occurence[0] = i
-                    num_occurence[1] = j
-                dig_counter += 1
-            else:
-                if dig_counter > 0:
-                    occurrences.append(SIMD[occurence_type, 4](num_occurence[0], num_occurence[1], dig_counter))
-                dig_counter = 0
-
-    # loop over results and collect part numbers
-    for i in range(len(occurrences)):
-        let occurrence = occurrences[i]
-        let middle_row = occurrence[0].to_int()
-        let start_col = occurrence[1].to_int()
-        let occ_len = occurrence[2].to_int()
-
-        let middle_clamped_low = clamp[DType.int16, 1](middle_row - 1, 0, height)
-        let middle_clamped_high = clamp[char_type, 1](middle_row + 2, 0, height)
-
-        let start_clamped_col = clamp[DType.int16, 1](start_col - 1, 0, width)
-        let end_clamped_col = clamp[char_type, 1](start_col + occ_len + 1, 0, width)
-
-        # simd_width is 16, enough for a max of 3*5 elements
-        var map_clipping = SIMD[char_type, simd_width](46) # defautl ASCII 46 = "."
-        var count: Int = 0
-
-        # get all relevant fields (incl. neighbours)
-        for k in range(middle_clamped_low.to_int(), middle_clamped_high.to_int()):
-            for l in range(start_clamped_col.to_int(), end_clamped_col.to_int()):
-                map_clipping[count] = map[Index(k, l)]
-                count += 1
+        let desired_shape = TensorShape(height, width + 1)
+        map.ireshape(desired_shape)
         
-        # assemble part number from digits on the map
-        for k in range(len(map_clipping)):
-            if is_symbol(map_clipping[k].to_int(), non_symbols):
-                var part_no: String = ""
-                for j in range(start_col, start_col + occ_len):
-                    part_no = part_no.__add__(str(chr(map[middle_row, j].to_int())))
-                let valid_part_no = atol(part_no)
-                occurrences[i][3] = valid_part_no
-                break # after finding one symbol we can stop
+        # collect potential part number occurrences
+        for i in range(height):
+            for j in range(width + 1):
+                let val = map[Index(i, j)]
+                if val >= low_end and val <= high_end:
+                    if dig_counter == 0:
+                        num_occurence[0] = i
+                        num_occurence[1] = j
+                    dig_counter += 1
+                else:
+                    if dig_counter > 0:
+                        occurrences.append(SIMD[occurence_type, 4](num_occurence[0], num_occurence[1], dig_counter))
+                    dig_counter = 0
 
-    # loop over results and collect gears; check distance from gear to (all) part nos
-    for i in range(len(occurrences_gear)):
-        let occurrence_gear = occurrences_gear[i]
-        let middle_row = occurrence_gear[0].to_int()
-        let start_col = occurrence_gear[1].to_int()
-        var this_gear_ratio: Int = 1
+                if val == gear_value:
+                    occurrence[0] = i
+                    occurrence[1] = j
+                    occurrences_gear.append(SIMD[char_type, 2](occurrence[0], occurrence[1]))
+                
 
-        var gear_ratio_factors = DynamicVector[SIMD[DType.int16, 1]]()
+        # loop over results and collect part numbers
+        for i in range(len(occurrences)):
+            let occurrence = occurrences[i]
+            let middle_row = occurrence[0].to_int()
+            let start_col = occurrence[1].to_int()
+            let occ_len = occurrence[2].to_int()
 
-        # calculate shortest distance to each part_num_occurance
-        for j in range(len(occurrences)):
-            let occurrence = occurrences[j]
-            for k in range(occurrence[2].to_int()):
-                # let y = FloatLiteral((occurrence[0] - middle_row).to_int())
-                let y = SIMD[DType.float32, 1]((occurrence[0] - middle_row).to_int())
-                let x = SIMD[DType.float32, 1]((occurrence[1] - start_col + k).to_int())
-                let distance = sqrt(y**2 + x**2)
-                if distance <= sqrt[DType.float32, 1](2.0):
-                    gear_ratio_factors.append(occurrence[3])
-                    break
-        
-        if(len(gear_ratio_factors) >= 2):
-            for l in range(len(gear_ratio_factors)):
-                this_gear_ratio *= int(gear_ratio_factors[l])
-            sum_gear_ratios += this_gear_ratio
+            let middle_clamped_low = clamp[DType.int16, 1](middle_row - 1, 0, height)
+            let middle_clamped_high = clamp[char_type, 1](middle_row + 2, 0, height)
 
-    print("sum of all gear ratios:", sum_gear_ratios)               
+            let start_clamped_col = clamp[DType.int16, 1](start_col - 1, 0, width)
+            let end_clamped_col = clamp[char_type, 1](start_col + occ_len + 1, 0, width)
+
+            # simd_width is 16, enough for a max of 3*5 elements
+            var map_clipping = SIMD[char_type, simd_width](46) # defautl ASCII 46 = "."
+            var count: Int = 0
+
+            # get all relevant fields (incl. neighbours)
+            for k in range(middle_clamped_low.to_int(), middle_clamped_high.to_int()):
+                for l in range(start_clamped_col.to_int(), end_clamped_col.to_int()):
+                    map_clipping[count] = map[Index(k, l)]
+                    count += 1
+            
+            # assemble part number from digits on the map
+            for k in range(len(map_clipping)):
+                if is_symbol(map_clipping[k].to_int(), non_symbols):
+                    var part_no: String = ""
+                    for j in range(start_col, start_col + occ_len):
+                        part_no = part_no.__add__(str(chr(map[middle_row, j].to_int())))
+                    let valid_part_no = atol(part_no)
+                    occurrences[i][3] = valid_part_no
+                    break # after finding one symbol we can stop
+
+        # loop over results and collect gears; check distance from gear to (all) part nos
+        for i in range(len(occurrences_gear)):
+            let occurrence_gear = occurrences_gear[i]
+            let middle_row = occurrence_gear[0].to_int()
+            let start_col = occurrence_gear[1].to_int()
+            var this_gear_ratio: Int = 1
+
+            var gear_ratio_factors = DynamicVector[SIMD[DType.int16, 1]]()
+
+            # calculate shortest distance to each part_num_occurance
+            for j in range(len(occurrences)):
+                let occurrence = occurrences[j]
+                # only neighboring rows and cols that matter
+                let occurrence_part_row = occurrence[0]
+                let occurrence_part_col = occurrence[1]
+
+                if abs(middle_row - occurrence_part_row) < 2:
+                    for k in range(occurrence[2].to_int()):
+                        # let y = FloatLiteral((occurrence[0] - middle_row).to_int())
+                        let y = SIMD[DType.float32, 1]((occurrence[0] - middle_row).to_int())
+                        let x = SIMD[DType.float32, 1]((occurrence[1] - start_col + k).to_int())
+                        let distance = sqrt(y**2 + x**2)
+                        if distance <= sqrt[DType.float32, 1](2.0):
+                            gear_ratio_factors.append(occurrence[3])
+                            break
+            
+            if(len(gear_ratio_factors) >= 2):
+                for l in range(len(gear_ratio_factors)):
+                    this_gear_ratio *= int(gear_ratio_factors[l])
+                sum_gear_ratios += this_gear_ratio
+
+        print("sum of all gear ratios:", sum_gear_ratios)   
+    except:
+        print("Error occured reading file")
         
 
 # If any of the elements is not a . or number, then it's a symbol and therefore it's a part_number
