@@ -1,0 +1,67 @@
+---------------------
+Benchmark Report (s)
+---------------------
+Mean: 0.27874133333333334
+Total: 5.8535680000000001
+Iters: 21
+Warmup Mean: 0.29338049999999999
+Warmup Total: 0.58676099999999998
+Warmup Iters: 2
+Fastest Mean: 0.27874133333333334
+Slowest Mean: 0.27874133333333334
+
+
+---------------------
+Benchmark Report (s)
+---------------------
+Mean: 0.27756866666666663
+Total: 5.8289419999999996
+Iters: 21
+Warmup Mean: 0.29122949999999997
+Warmup Total: 0.58245899999999995
+Warmup Iters: 2
+Fastest Mean: 0.27756866666666669
+Slowest Mean: 0.27756866666666669
+
+
+removing str -> int conversion + atol
+---------------------
+Benchmark Report (s)
+---------------------
+Mean: 0.24674170833333334
+Total: 5.9218010000000003
+Iters: 24
+Warmup Mean: 0.26272849999999998
+Warmup Total: 0.52545699999999995
+Warmup Iters: 2
+Fastest Mean: 0.24674170833333334
+Slowest Mean: 0.24674170833333334
+
+putting a break in winner checking loop; moving to 🔥 (inner two winner finding loops) didn't help
+Benchmark Report (s)
+---------------------
+Mean: 0.19994820000000002
+Total: 5.9984460000000004
+Iters: 30
+Warmup Mean: 0.2120435
+Warmup Total: 0.42408699999999999
+Warmup Iters: 2
+Fastest Mean: 0.19994819999999999
+Slowest Mean: 0.19994819999999999
+
+
+Switching inner two loops helped this time (don't know what the difference is)
+---------------------
+Benchmark Report (s)
+---------------------
+Mean: 0.044540423076923075
+Total: 1.1580509999999999
+Iters: 26
+Warmup Mean: 0.056784000000000001
+Warmup Total: 0.113568
+Warmup Iters: 2
+Fastest Mean: 0.044540423076923082
+Slowest Mean: 0.044540423076923082
+
+
+now giving SIMD a try

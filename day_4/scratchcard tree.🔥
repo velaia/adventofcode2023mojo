@@ -1,52 +1,70 @@
 from python import Python
 from python import PythonObject
 import benchmark
+from sys.info import simdwidthof
+from memory import memset_zero
+
+
+alias field_type = DType.int8
+alias simd_width = simdwidthof[field_type]()
 
 fn main():
-    let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=5.0)
+    let report = benchmark.run[calculate](num_warmup = 20, max_iters=100, min_runtime_secs=2.0)
     report.print()
+    # calculate()
 
 fn calculate():
     try:
         with open("input.txt", "r") as input:
             let lines = input.read().split("\n")
-            let card_dict = Python.dict()
+            var cards = DynamicVector[SIMD[DType.int32, 1]](208)
             var sum_cards = 0
 
             # seed card dict, one card is default
             for line_no in range(len(lines) - 1):
-                card_dict[line_no] = 1
+                cards[line_no] = 1
 
             for line_no in range(len(lines) - 1):
-                let card_no = line_no + 1
                 # use Python split to handle variable number of whitespaces
-                let py_winner: PythonObject = lines[line_no][10:40]
-                let py_drawn_nums: PythonObject = lines[line_no][42:]
-                let winners = py_winner.split()
-                let drawn_nums = py_drawn_nums.split()
+                let py_winner_str: PythonObject = lines[line_no][10:40]
+                let py_drawn_num_str: PythonObject = lines[line_no][42:]
+                let py_winners = py_winner_str.split()
+                let py_drawn_nums = py_drawn_num_str.split()
+                let winners = python_to_mojo(py_winners)
+                var drawn_nums = python_to_mojo(py_drawn_nums)
 
-                var card_winners = DynamicVector[SIMD[DType.int16, 1]]()
+                var card_winners = 0
                 
                 # convert to ints and find winning nums
-                for line_no in range(winners.__len__()):
-                    let current_winner = atol(str(winners[line_no]))
+                for winner_no in range(py_winners.__len__()):
+                    let current_winner = winners[winner_no]
 
-                    for j in range(drawn_nums.__len__()):
-                        let current_drawn_num = atol(str(drawn_nums[j]))
-                        if current_winner == current_drawn_num:
-                            card_winners.append(current_winner)
+                    # let drawn_nums_p: DTypePointer[DType.int64] = drawn_nums.steal_data()
+                    # var some_data = drawn_nums_p.simd_load[8](0)
+                    for j in range(py_drawn_nums.__len__() // simd_width + 1):
+                        let current_drawn_num = drawn_nums.simd_load[simd_width](j*simd_width)
+                        if (current_drawn_num == current_winner).reduce_or():
+                            card_winners += 1
                 
                 # add one card for the following len(card_winners) cards
-                for l in range(line_no + 1, line_no + 1 + len(card_winners)):
+                for l in range(line_no + 1, line_no + 1 + card_winners):
                     # no cards past the end
                     if l < len(lines) - 1:
-                        card_dict[l] = int(card_dict[l]) + int(card_dict[line_no])
+                        cards[l] = cards[l] + cards[line_no]
 
             for line_no in range(len(lines) - 1):
-                sum_cards += int(card_dict[line_no])
+                sum_cards += int(cards[line_no])
                 
                     
 
             print("overall number cards:", sum_cards)
     except:
         pass
+
+fn python_to_mojo(python_list: PythonObject) raises -> DTypePointer[DType.int8]:
+    let result = DTypePointer[field_type].alloc(int(python_list.__len__()))
+    memset_zero(result, int(python_list.__len__()))
+    for i in range(python_list.__len__()):
+        result[i] = atol(str(python_list[i]))
+    return result
+    
