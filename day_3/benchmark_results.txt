@@ -1,0 +1,35 @@
+Benchmark Report (s)
+---------------------
+Mean: 0.0019448529411764707
+Total: 0.59512500000000002
+Iters: 306
+Warmup Mean: 0.0020625000000000001
+Warmup Total: 0.0041250000000000002
+Warmup Iters: 2
+Fastest Mean: 0.0019448529411764707
+Slowest Mean: 0.0019448529411764707
+
+
+One loop less
+Benchmark Report (s)
+---------------------
+Mean: 0.0019285922330097088
+Total: 0.59593499999999999
+Iters: 309
+Warmup Mean: 0.00199
+Warmup Total: 0.00398
+Warmup Iters: 2
+Fastest Mean: 0.0019285922330097088
+Slowest Mean: 0.0019285922330097088
+
+Calculating only distances from neighboring rows
+Benchmark Report (s)
+---------------------
+Mean: 0.00099383584589614739
+Total: 0.59331999999999996
+Iters: 597
+Warmup Mean: 0.001059
+Warmup Total: 0.0021180000000000001
+Warmup Iters: 2
+Fastest Mean: 0.00099383584589614739
+Slowest Mean: 0.00099383584589614739

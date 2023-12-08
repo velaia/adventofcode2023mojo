@@ -4,6 +4,7 @@ from utils.index import Index
 from utils.vector import DynamicVector
 from math import clamp, sqrt, abs
 import benchmark
+from algorithm import parallelize
 
 alias char_type = DType.uint8 # ASCII chars, uint8 = 256 should suffice
 alias occurence_type = DType.int16
@@ -11,7 +12,7 @@ alias simd_width = simdwidthof[char_type]()
 alias Occurence = SIMD[char_type, 2]
 
 fn main() raises:
-    let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=0.5)
+    let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=5.0)
     report.print()
 
 
@@ -110,13 +111,12 @@ fn calculate():
             # calculate shortest distance to each part_num_occurance
             for j in range(len(occurrences)):
                 let occurrence = occurrences[j]
+                
                 # only neighboring rows and cols that matter
                 let occurrence_part_row = occurrence[0]
                 let occurrence_part_col = occurrence[1]
-
                 if abs(middle_row - occurrence_part_row) < 2:
                     for k in range(occurrence[2].to_int()):
-                        # let y = FloatLiteral((occurrence[0] - middle_row).to_int())
                         let y = SIMD[DType.float32, 1]((occurrence[0] - middle_row).to_int())
                         let x = SIMD[DType.float32, 1]((occurrence[1] - start_col + k).to_int())
                         let distance = sqrt(y**2 + x**2)
@@ -131,7 +131,7 @@ fn calculate():
 
         print("sum of all gear ratios:", sum_gear_ratios)   
     except:
-        print("Error occured reading file")
+        pass
         
 
 # If any of the elements is not a . or number, then it's a symbol and therefore it's a part_number

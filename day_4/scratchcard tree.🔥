@@ -1,0 +1,52 @@
+from python import Python
+from python import PythonObject
+import benchmark
+
+fn main():
+    let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=5.0)
+    report.print()
+
+fn calculate():
+    try:
+        with open("input.txt", "r") as input:
+            let lines = input.read().split("\n")
+            let card_dict = Python.dict()
+            var sum_cards = 0
+
+            # seed card dict, one card is default
+            for line_no in range(len(lines) - 1):
+                card_dict[line_no] = 1
+
+            for line_no in range(len(lines) - 1):
+                let card_no = line_no + 1
+                # use Python split to handle variable number of whitespaces
+                let py_winner: PythonObject = lines[line_no][10:40]
+                let py_drawn_nums: PythonObject = lines[line_no][42:]
+                let winners = py_winner.split()
+                let drawn_nums = py_drawn_nums.split()
+
+                var card_winners = DynamicVector[SIMD[DType.int16, 1]]()
+                
+                # convert to ints and find winning nums
+                for line_no in range(winners.__len__()):
+                    let current_winner = atol(str(winners[line_no]))
+
+                    for j in range(drawn_nums.__len__()):
+                        let current_drawn_num = atol(str(drawn_nums[j]))
+                        if current_winner == current_drawn_num:
+                            card_winners.append(current_winner)
+                
+                # add one card for the following len(card_winners) cards
+                for l in range(line_no + 1, line_no + 1 + len(card_winners)):
+                    # no cards past the end
+                    if l < len(lines) - 1:
+                        card_dict[l] = int(card_dict[l]) + int(card_dict[line_no])
+
+            for line_no in range(len(lines) - 1):
+                sum_cards += int(card_dict[line_no])
+                
+                    
+
+            print("overall number cards:", sum_cards)
+    except:
+        pass
