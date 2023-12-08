@@ -1,33 +1,40 @@
 from python import Python
 from python import PythonObject
+import benchmark
 
+fn main():
+    let report = benchmark.run[calculate](num_warmup = 20, max_iters=100, min_runtime_secs=2.0)
+    report.print()
 
-fn main() raises:
-    with open("input.txt", "r") as input:
-        let lines = input.read().split("\n")
-        var sum_points: Int = 0
+fn calculate():
+    try:
+        with open("input.txt", "r") as input:
+            let lines = input.read().split("\n")
+            var sum_points: Int = 0
 
-        for i in range(len(lines) - 1):
-            let card_no = lines[i][5:8]
+            for i in range(len(lines) - 1):
+                let card_no = lines[i][5:8]
 
-            # use Python split to handle variable number of whitespaces
-            let py_winner: PythonObject = lines[i][10:40]
-            let py_drawn_nums: PythonObject = lines[i][42:]
-            let winners = py_winner.split()
-            let drawn_nums = py_drawn_nums.split()
+                # use Python split to handle variable number of whitespaces
+                let py_winner: PythonObject = lines[i][10:40]
+                let py_drawn_nums: PythonObject = lines[i][42:]
+                let winners = py_winner.split()
+                let drawn_nums = py_drawn_nums.split()
 
-            var card_winners = DynamicVector[SIMD[DType.int16, 1]]()
-            
-            # convert to ints and find winning nums - in Python I would use sets and intersection
-            for i in range(winners.__len__()):
-                let current_winner = atol(str(winners[i]))
+                var card_winners = DynamicVector[SIMD[DType.int16, 1]]()
+                
+                # convert to ints and find winning nums - in Python I would use sets and intersection
+                for i in range(winners.__len__()):
+                    let current_winner = atol(str(winners[i]))
 
-                for j in range(drawn_nums.__len__()):
-                    let current_drawn_num = atol(str(drawn_nums[j]))
-                    if current_winner == current_drawn_num:
-                        card_winners.append(current_winner)
+                    for j in range(drawn_nums.__len__()):
+                        let current_drawn_num = atol(str(drawn_nums[j]))
+                        if current_winner == current_drawn_num:
+                            card_winners.append(current_winner)
 
-            if len(card_winners) > 0:
-                sum_points += 2**(len(card_winners) - 1)
+                if len(card_winners) > 0:
+                    sum_points += 2**(len(card_winners) - 1)
 
-        print("sum of points:", sum_points)
+            print("sum of points:", sum_points)
+    except:
+        pass

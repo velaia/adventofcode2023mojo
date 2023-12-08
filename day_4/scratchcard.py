@@ -1,7 +1,15 @@
-import pandas as pd
+import timeit
 
 def main():
-    df = pd.read_table("input.txt", header=None, )
-    df.info()
+    sum_points = 0
 
-main()
+    with open("input.txt", "r") as input:
+        lines = input.readlines()
+        for line in lines:
+            winners = set(line[10:40].split())
+            draws = set(line[42:].split())
+
+            if (x := len(winners.intersection(draws))) > 0:
+                sum_points += 2**(x - 1)
+            
+    print(f"{sum_points =}")

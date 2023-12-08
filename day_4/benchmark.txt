@@ -65,3 +65,14 @@ Slowest Mean: 0.044540423076923082
 
 
 now giving SIMD a try
+---------------------
+Benchmark Report (s)
+---------------------
+Mean: 0.05588655
+Total: 1.117731
+Iters: 20
+Warmup Mean: 0.068419999999999995
+Warmup Total: 0.13683999999999999
+Warmup Iters: 2
+Fastest Mean: 0.05588655
+Slowest Mean: 0.05588655
