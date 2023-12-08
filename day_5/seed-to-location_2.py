@@ -23,7 +23,7 @@ mappings = []
 seeds_ranges_coordinates = [int(start_stop) for start_stop in input_lines[0].split()[1:]]
 seed_ranges = sum([seeds_ranges_coordinates[i+1] for i in range(0, len(seeds_ranges_coordinates), 2)])
 print(f"number of initial seeds: {seed_ranges}")
-seed_ranges = [range(seeds_ranges_coordinates[i], seeds_ranges_coordinates[i] + seeds_ranges_coordinates[i+1]) for i in range(0, len(seeds_ranges_coordinates), 2)]
+seed_ranges = [range(seeds_ranges_coordinates[i], seeds_ranges_coordinates[i] + seeds_ranges_coordinates[i+1], 2222) for i in range(0, len(seeds_ranges_coordinates), 2)]
 print(seed_ranges)
 
 
@@ -40,33 +40,46 @@ def get_mapping_for_lines(start_line: int, finish_line: int):
 mappings = [get_mapping_for_lines(start, stop) for start,stop in 
     input_params[1]]
 
+min_loc_seed = None
 min_location_number = 100_000_000_000
+min_path_step_number = 100_000_000_000
+max_path_step_number = 0
 counter = 0
-for seeds in seed_ranges:
-    for seed in seeds:
-        counter += 1
-        if counter % 1_000_000 == 0:
-            print("another 1,000,000")
-        # path = [seed,]
-        # print(f"starting seed {seed:_}")
-        current_seed = seed
-        for mapping in mappings:
-            prev_seed = current_seed
-            for source_range in mapping:
-                # print(f"mapping details: { source_range['destination_range_start']:_}, {source_range['source_range_start']:_}, {source_range['range_length']:_}, dest_range+diff: {source_range['destination_range_start'] + (current_seed - source_range['source_range_start']):_}")
-                if current_seed >= source_range['source_range_start'] and current_seed < source_range['source_range_start'] + source_range['range_length']:
-                    # print(f"{current_seed:_} is in source range { source_range['source_range_start']:_} to { source_range['source_range_start'] + source_range['range_length']:,}.")
-                    current_seed = source_range['destination_range_start'] + (current_seed - source_range['source_range_start'])
-                    # print(f"setting current_seed to new value: {current_seed:_}")
-                    break
-                else:
-                    # print(f"{current_seed:,} is in not source range { source_range['source_range_start']:,} to { source_range['source_range_start'] + source_range['range_length']:,}.")
-                    pass
-                # print("finished checking one mapping range with resulting")
-            # print(f"finished one mapping like seed -> soil, result {prev_seed:_} -> {current_seed:_}")
-            # path.append(current_seed)
-        # print(f"finished seed {seed:_} with mapping-result: {current_seed:_}")
-        # print(" -> ".join([f"{step:,}" for step in path]))
-        min_location_number = min(current_seed, min_location_number)
+all_paths = []
+# for seeds in seed_ranges:
 
-print(f"{min_location_number:,}")
+# Narrowed it down by checking different step sizes (see above) and zoomed in on this range
+for seed in range(1_563_000_836, 1_564_000_836):
+    counter += 1
+    if counter % 10_000 == 0:
+        # print("another 1,000,000")
+        print(f"min loc number: {min_location_number:,}, responsible seed: {min_loc_seed:,}, {max_path_step_number = }, {min_path_step_number =}")
+    path = [seed,]
+    current_seed = seed
+    for mapping in mappings:
+        prev_seed = current_seed
+        for source_range in mapping:
+            # print(f"mapping details: { source_range['destination_range_start']:_}, {source_range['source_range_start']:_}, {source_range['range_length']:_}, dest_range+diff: {source_range['destination_range_start'] + (current_seed - source_range['source_range_start']):_}")
+            if current_seed >= source_range['source_range_start'] and current_seed < source_range['source_range_start'] + source_range['range_length']:
+                # print(f"{current_seed:_} is in source range { source_range['source_range_start']:_} to { source_range['source_range_start'] + source_range['range_length']:,}.")
+                current_seed = source_range['destination_range_start'] + (current_seed - source_range['source_range_start'])
+                # print(f"setting current_seed to new value: {current_seed:_}")
+                break
+            else:
+                # print(f"{current_seed:,} is in not source range { source_range['source_range_start']:,} to { source_range['source_range_start'] + source_range['range_length']:,}.")
+                pass
+            # print("finished checking one mapping range with resulting")
+        # print(f"finished one mapping like seed -> soil, result {prev_seed:_} -> {current_seed:_}")
+        path.append(current_seed)
+    # print(f"finished seed {seed:_} with mapping-result: {current_seed:_}")
+    # print(" -> ".join([f"{step:,}" for step in path]))
+    # all_paths.extend(path)
+    max_path_step_number = max(max(path), max_path_step_number)
+    min_path_step_number = min(min(path), min_path_step_number)
+    prev_min_loc_number = min_location_number
+    min_location_number = min(current_seed, min_location_number)
+    if min_location_number < prev_min_loc_number:
+        min_loc_seed = seed
+
+
+print(f"{min_location_number:,}, responsible seed: {min_loc_seed:,}, {max_path_step_number = }, {min_path_step_number =}")
