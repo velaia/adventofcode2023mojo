@@ -41,8 +41,8 @@ with open(system, "r") as input:
                 new_locs.append(desert_map[loc][0 if instr == 'L' else 1])
             counter +=1
             
-            if counter % 1_000_000 == 0:
-                print(new_locs)
+            if counter % 100_000 == 0:
+                exit()
 
             new_loc_correct_ending = list([x.endswith(end) for x in  new_locs])
             if np.any(new_loc_correct_ending):
