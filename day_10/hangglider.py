@@ -233,19 +233,19 @@ print(f"furthest away point with steps: {math.ceil(step_counter / 2)}")
 # part 2
 loop_trail = np.array(loop_trail)
 
-def get_loop_trail_members_for_row(row):
-    val = [loop_pos for loop_pos in loop_trail if loop_pos[0] == row]
-    val2 = None
-    return val, val2
+def get_loop_trail_members_per_row():
+    members = [[] for i in range(len(matrix))]
+    [members[loop_pos[0]].append(loop_pos[1]) for loop_pos in loop_trail]
+    return members
 
-loop_trail_members_per_row = [get_loop_trail_members_for_row(i) for i in range(len(matrix))]
+loop_trail_members_per_row = get_loop_trail_members_per_row()
 
 def get_loop_crossings(pos, end = max_col):
     loop_crossings = 0
     last_open = None
 
     # PERFORMANCE: use sorting and only check row
-    _, loop_trail_mem_this_row = loop_trail_members_per_row[pos[0]]
+    loop_trail_mem_this_row = loop_trail_members_per_row[pos[0]]
     # print(val)
     # print(val2)
 
@@ -271,7 +271,7 @@ def get_loop_crossings(pos, end = max_col):
 
 for row_num, row in enumerate(matrix):
     crossings_so_far = 0
-    _, loop_trail_this_row = loop_trail_members_per_row[row_num]
+    loop_trail_this_row = loop_trail_members_per_row[row_num]
     crossings_in_row_so_far = 0
     last_valid_col = None
     for col_num, col in enumerate(matrix[row_num]):
