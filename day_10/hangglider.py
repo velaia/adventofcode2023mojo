@@ -235,7 +235,7 @@ loop_trail = np.array(loop_trail)
 
 def get_loop_trail_members_for_row(row):
     val = [loop_pos for loop_pos in loop_trail if loop_pos[0] == row]
-    val2 = [loop_pos[1] for loop_pos in loop_trail if loop_pos[0] == row]
+    val2 = None
     return val, val2
 
 loop_trail_members_per_row = [get_loop_trail_members_for_row(i) for i in range(len(matrix))]
