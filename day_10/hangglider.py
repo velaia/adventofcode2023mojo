@@ -155,6 +155,14 @@ input_sample2 = """.....
 .L-J.
 ....."""
 
+part_two_hint = """A common way to tackle the problem is to count how many times a
+line drawn from the point (in any direction) intersects with the polygon boundary.
+If the line and the polygon intersect an even number of times (or not at all),
+then the point is outside. If they intersect an odd number of times, the point is inside."""
+
+# How many steps along the loop to get to the point farthest away from starting position?
+inp = input
+
 n = np.array((-1, 0))
 e = np.array((0, 1))
 s = np.array((1, 0))
@@ -162,25 +170,23 @@ w = np.array((0, -1))
 
 valid_pipes: str = "|-LJ7F"
 step_counter = 0
+loop_trail = []
+enclosed_tiles = 0
 pipe_neighbors = {
     "|": (n, s), # north - south
     "-": (w, e), # west - east
     "L": (n, e), # north - east
     "J": (n, w),
-    "7": (w, s),
+    "7": (s, w),
     "F": (s, e),
 }
-
-
-# How many steps along the loop to get to the point farthest away from starting position?
-inp = input
 
 # Initialize map
 matrix = inp.split("\n")
 max_row, max_col = len(matrix), len(matrix[0])
 for row_num, row in enumerate(matrix):
     if (col := row.find('S')) >= 0:
-        starting_pos = (row_num, col)
+        starting_pos = np.array((row_num, col))
 
 def next_pos(current_pos: np.array, last_pos: np.array) -> np.array:
     """Starting at top then clockwise; if outside bounds, ignore pos"""
@@ -211,12 +217,82 @@ last_pos = starting_pos
 current_pos = first_step(starting_pos)
 step_counter += 1
 
+loop_trail.append(starting_pos)
+loop_trail.append(current_pos)
 
 while True:
     npos = next_pos(current_pos, last_pos)
+    loop_trail.append(npos)
     if(np.all(npos == starting_pos)):
         break
     last_pos, current_pos = current_pos, npos
     step_counter += 1
 
-print(f"furthest awa point with steps: {math.ceil(step_counter / 2)}")
+print(f"furthest away point with steps: {math.ceil(step_counter / 2)}")
+
+# part 2
+loop_trail = np.array(loop_trail)
+
+def get_loop_trail_members_for_row(row):
+    val = [loop_pos for loop_pos in loop_trail if loop_pos[0] == row]
+    val2 = [loop_pos[1] for loop_pos in loop_trail if loop_pos[0] == row]
+    return val, val2
+
+loop_trail_members_per_row = [get_loop_trail_members_for_row(i) for i in range(len(matrix))]
+
+def get_loop_crossings(pos, end = max_col):
+    loop_crossings = 0
+    last_open = None
+
+    # PERFORMANCE: use sorting and only check row
+    _, loop_trail_mem_this_row = loop_trail_members_per_row[pos[0]]
+    # print(val)
+    # print(val2)
+
+    # print(f"{loop_trail_mem_this_row=}, {list(range(pos[1] + 1, end))=}")
+    # walking east and counting trail crossings
+    for i in range(pos[1] + 1, end):
+        current_pipe = matrix[pos[0]][i]
+        # check if part of the trail
+        if i in loop_trail_mem_this_row:
+            if(current_pipe == 'S'): # hack
+                current_pipe = 'J'
+                
+            if current_pipe in ('F', 'L'):
+                last_open = current_pipe
+            elif current_pipe == '7' and last_open == 'L':
+                loop_crossings += 1
+            elif current_pipe == 'J' and last_open == 'F':
+                loop_crossings += 1
+            elif current_pipe == '|':
+                loop_crossings += 1
+
+    return loop_crossings
+
+for row_num, row in enumerate(matrix):
+    crossings_so_far = 0
+    _, loop_trail_this_row = loop_trail_members_per_row[row_num]
+    crossings_in_row_so_far = 0
+    last_valid_col = None
+    for col_num, col in enumerate(matrix[row_num]):
+        # if not in loop_trail
+        skip_current = False
+        current_pos = (row_num, max_col - col_num - 1) # start in east
+        # check current tile is not part of trail
+        for pos in loop_trail_this_row:
+            if pos == current_pos[1]:
+                skip_current = True
+                break
+        if skip_current:
+            continue
+
+        # if num_loop_crossings uneven, count as inside
+        if last_valid_col:
+            crossings_in_row_so_far += get_loop_crossings(current_pos, last_valid_col)
+        else:
+            crossings_in_row_so_far += get_loop_crossings(current_pos)
+        enclosed_tiles += 1 if crossings_in_row_so_far % 2 == 1 else 0
+        last_valid_col = max_col - col_num - 1
+
+
+print(f"number of enclosed tiles: {enclosed_tiles}")
