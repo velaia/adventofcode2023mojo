@@ -1,10 +1,12 @@
 from sys.info import simdwidthof
 from math import ceil
 import benchmark
+from tensor import Tensor
 
 alias coordinate_type = DType.uint8
 alias simd_width = simdwidthof[DType.uint8]()
 alias coord_type = SIMD[DType.uint8, 2]
+alias simd_width16 = simdwidthof[DType.int16]()
 
 fn main() raises:
     # let report = benchmark.run[calculate](num_warmup = 2, max_iters=20, min_runtime_secs=5.0)
@@ -161,7 +163,6 @@ L.L--.J.L7-7JJL.|-JL-LL-7L|J-L.FJ-JLLLJ.L7J|JJF-7JJ.LJ.L--FJLLJ.J-J-JJ.L--|L-L.L
 
     var starting_pos = SIMD[coordinate_type, 2]()
     let valid_pipes: String = "|-LJ7F"
-    let valid_pipes_simd: SIMD[] = SIMD[DType.int16, 8](valid_pipes)
     var step_counter: Int = 0
     var loop_trail = DynamicVector[coord_type]()
     var enclosed_tiles: Int = 0
@@ -180,10 +181,14 @@ L.L--.J.L7-7JJL.|-JL-LL-7L|J-L.FJ-JLLLJ.L7J|JJF-7JJ.LJ.L--FJLLJ.J-J-JJ.L--|L-L.L
         let max_row = len(matrix)
         let max_col = len(matrix[0])
 
+        # let t = Tensor[DType.uint16](max_row, max_col)
+        # t.data().simd_store[simd_width16()
+
         for i in range(max_row):
             let row = matrix[i]
             let col = row.find('S')
             if col >= 0:
+                let f = ord(row[col])
                 starting_pos[0] = i
                 starting_pos[1] = col
                 break
@@ -254,6 +259,6 @@ L.L--.J.L7-7JJL.|-JL-LL-7L|J-L.FJ-JLLLJ.L7J|JJF-7JJ.LJ.L--FJLLJ.J-J-JJ.L--|L-L.L
             last_pos, current_pos = current_pos, npos
             step_counter += 1
 
-        # print("furthest away point with steps:", ceil(step_counter / 2))
+        print("furthest away point with steps:", ceil(step_counter / 2))
     except:
         pass

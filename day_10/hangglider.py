@@ -266,12 +266,8 @@ def main(part2 = True):
             loop_crossings = 0
             last_open = None
 
-            # PERFORMANCE: use sorting and only check row
             loop_trail_mem_this_row = loop_trail_members_per_row[pos[0]]
-            # print(val)
-            # print(val2)
 
-            # print(f"{loop_trail_mem_this_row=}, {list(range(pos[1] + 1, end))=}")
             # walking east and counting trail crossings
             for i in range(pos[1] + 1, end):
                 current_pipe = matrix[pos[0]][i]
@@ -292,7 +288,6 @@ def main(part2 = True):
             return loop_crossings
 
         for row_num, row in enumerate(matrix):
-            crossings_so_far = 0
             loop_trail_this_row = loop_trail_members_per_row[row_num]
             crossings_in_row_so_far = 0
             last_valid_col = None
