@@ -1,5 +1,6 @@
 import numpy as np
 import itertools
+import functools
 
 
 input_sample = """O....#....
@@ -127,22 +128,50 @@ O.##..#....OO.O....O#O....##.#O......O.....#.....O.....O#.#.#O.#.#..O.#..#.O#...
 
 result_sample = 136
 
+def guess_seq_len(seq):
+    guess = 1
+    max_len = len(seq) // 3
+    for x in range(3, max_len):
+        if seq[0:x] == seq[x:2*x]:
+            return x
+
+    return guess
+
+def get_weight(cols):
+    overall = 0
+    for row in cols:
+        overall += sum([factor * round_stone for (round_stone, factor) in zip(row == "O", range(len(row) , 0, -1))])
+    return overall
+
 def calculate(input: str) -> int:
     # populate array, transpose to get easy column access
     a = []
     lines = [l for l in input.split("\n")]
     for line in lines:
         a.append(list([char for char in line]))
-    cols = np.array(a).transpose()
+    cols = np.rot90(np.array(a), k=1, axes=(0,1))
 
-    new_cols = list([custom_sort(col) for col in cols])
-    overall = 0
-    for row in new_cols:
-        overall += sum([factor * round_stone for (round_stone, factor) in zip(row == "O", range(len(row) , 0, -1))])
-    
-    return overall
+    loops = 500
+    x = loops - 200
 
-def custom_sort(a: np.array) -> np.array:
+    weights = []
+    for i in range(loops):
+        for i in range(4):
+            # print("start:\n", cols, "\n")
+            new_cols = list([custom_sort(tuple(col)) for col in cols])
+            cols = np.array(new_cols)
+            # print("result:\n", cols, "\n")
+            cols = np.rot90(cols, k=1, axes=(1,0))
+        weight = get_weight(cols)
+        weights.append(weight)
+        
+    repet_1 = guess_seq_len(weights[x:])
+
+    idx = (1_000_000_000 - x) % repet_1
+    return weights[x+idx-1]
+
+@functools.cache
+def custom_sort(a: tuple) -> np.array:
     prev_l = list(a)
     new_l = None
     while True:
@@ -156,5 +185,11 @@ def custom_sort(a: np.array) -> np.array:
     return np.array(new_l)
 
 
-assert result_sample == calculate(input_sample)
-print(calculate(input_real))
+def main():
+    print(calculate(input_real))
+
+# assert result_sample == calculate(input_sample)
+if __name__ == "__main__":
+    main()
+
+    
