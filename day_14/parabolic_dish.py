@@ -128,20 +128,24 @@ O.##..#....OO.O....O#O....##.#O......O.....#.....O.....O#.#.#O.#.#..O.#..#.O#...
 
 result_sample = 136
 
-def guess_seq_len(seq):
+def get_seq_len(seq):
     guess = 1
-    max_len = len(seq) // 3
+    max_len = len(seq) // 2
     for x in range(3, max_len):
         if seq[0:x] == seq[x:2*x]:
             return x
-
     return guess
 
-def get_weight(cols):
+def get_weight(cols: tuple):
     overall = 0
     for row in cols:
-        overall += sum([factor * round_stone for (round_stone, factor) in zip(row == "O", range(len(row) , 0, -1))])
+        overall += get_weight_row(tuple(row))
     return overall
+
+@functools.cache
+def get_weight_row(row: tuple) -> int:
+    row = np.array(row)
+    return sum([factor * round_stone for (round_stone, factor) in zip(row == "O", range(len(row) , 0, -1))])
 
 def calculate(input: str) -> int:
     # populate array, transpose to get easy column access
@@ -151,24 +155,24 @@ def calculate(input: str) -> int:
         a.append(list([char for char in line]))
     cols = np.rot90(np.array(a), k=1, axes=(0,1))
 
-    loops = 500
-    x = loops - 200
-
     weights = []
-    for i in range(loops):
+    counter = 0
+    possible_start = 100
+    while True:
         for i in range(4):
-            # print("start:\n", cols, "\n")
             new_cols = list([custom_sort(tuple(col)) for col in cols])
             cols = np.array(new_cols)
-            # print("result:\n", cols, "\n")
             cols = np.rot90(cols, k=1, axes=(1,0))
         weight = get_weight(cols)
         weights.append(weight)
-        
-    repet_1 = guess_seq_len(weights[x:])
+        counter += 1
+        if counter > 200:
+            if (cycle_length := get_seq_len(weights[possible_start:])) > 1:
+                break
 
-    idx = (1_000_000_000 - x) % repet_1
-    return weights[x+idx-1]
+
+    idx = (1_000_000_000 - possible_start) % cycle_length
+    return weights[possible_start+idx-1]
 
 @functools.cache
 def custom_sort(a: tuple) -> np.array:
