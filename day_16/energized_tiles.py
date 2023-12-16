@@ -1,7 +1,5 @@
 import numpy as np
-
-
-input_sample_result = 46
+import itertools
 
 
 """
@@ -21,10 +19,15 @@ with open(filename, "r") as input_file:
 height, width = len(input), len(input[0])
 energized_locations = np.zeros((height, width))
 energized_locations_directions = []
-for i, line in enumerate(input):
-    energized_locations_directions.append([])
-    for j, char in enumerate(line):
-        energized_locations_directions[i].append([])
+
+def initialize_locations_and_directions():
+    global energized_locations, energized_locations_directions
+    energized_locations = np.zeros((height, width))
+    energized_locations_directions = []
+    for i, line in enumerate(input):
+        energized_locations_directions.append([])
+        for j, char in enumerate(line):
+            energized_locations_directions[i].append([])
 
 reflection_map = {
     "\\": {
@@ -44,13 +47,31 @@ reflection_map = {
 # recursion was going to deep so shifted to this "job queue"
 trace_light_queue = []
 def calculate(input):
-    global trace_light_queue
-    trace_light_queue.append(((0, -1), 1))
+    initialize_locations_and_directions()
+
+    energized_tiles_list = []
+    for i in range(width):
+        energized_tiles_list.append(calculate_one_entry(((-1, i), -2)))
+        energized_tiles_list.append(calculate_one_entry(((height, i), 2)))
+    
+    for i in range(height):
+        energized_tiles_list.append(calculate_one_entry(((i, -1), 1)))
+        energized_tiles_list.append(calculate_one_entry(((i, width), -1)))
+    
+    return max(energized_tiles_list)
+
+def calculate_one_entry(entry):
+    global trace_light_queue, energized_locations
+    trace_light_queue = []
+    trace_light_queue.append(entry)
     try:
         while next_pos := trace_light_queue.pop(0):
             trace_light(next_pos[0], next_pos[1])
     except:
-        return np.sum(energized_locations == 1)
+        result = np.sum(energized_locations == 1)
+        # reset map
+        initialize_locations_and_directions()
+        return result
 
 def trace_light(current_pos, direction):
     global width, height, input, energized_locations, trace_light_queue
