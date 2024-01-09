@@ -1,0 +1,2437 @@
+new_pos=(0, 0), new_pos_sym='\\', direction=1
+new_pos=(1, 0), new_pos_sym='.', direction=-2
+new_pos=(2, 0), new_pos_sym='.', direction=-2
+new_pos=(3, 0), new_pos_sym='.', direction=-2
+new_pos=(4, 0), new_pos_sym='.', direction=-2
+new_pos=(5, 0), new_pos_sym='.', direction=-2
+new_pos=(6, 0), new_pos_sym='.', direction=-2
+new_pos=(7, 0), new_pos_sym='.', direction=-2
+new_pos=(8, 0), new_pos_sym='.', direction=-2
+new_pos=(9, 0), new_pos_sym='.', direction=-2
+new_pos=(10, 0), new_pos_sym='.', direction=-2
+new_pos=(11, 0), new_pos_sym='.', direction=-2
+new_pos=(12, 0), new_pos_sym='.', direction=-2
+new_pos=(13, 0), new_pos_sym='.', direction=-2
+new_pos=(14, 0), new_pos_sym='.', direction=-2
+new_pos=(15, 0), new_pos_sym='-', direction=-2
+one beam left the map
+new_pos=(15, 1), new_pos_sym='-', direction=1
+new_pos=(15, 2), new_pos_sym='|', direction=1
+new_pos=(14, 2), new_pos_sym='.', direction=2
+new_pos=(13, 2), new_pos_sym='.', direction=2
+new_pos=(12, 2), new_pos_sym='.', direction=2
+new_pos=(11, 2), new_pos_sym='.', direction=2
+new_pos=(10, 2), new_pos_sym='.', direction=2
+new_pos=(9, 2), new_pos_sym='.', direction=2
+new_pos=(8, 2), new_pos_sym='-', direction=2
+new_pos=(8, 1), new_pos_sym='-', direction=-1
+new_pos=(8, 0), new_pos_sym='.', direction=-1
+one beam left the map
+new_pos=(8, 3), new_pos_sym='.', direction=1
+new_pos=(8, 4), new_pos_sym='.', direction=1
+new_pos=(8, 5), new_pos_sym='.', direction=1
+new_pos=(8, 6), new_pos_sym='.', direction=1
+new_pos=(8, 7), new_pos_sym='.', direction=1
+new_pos=(8, 8), new_pos_sym='.', direction=1
+new_pos=(8, 9), new_pos_sym='.', direction=1
+new_pos=(8, 10), new_pos_sym='.', direction=1
+new_pos=(8, 11), new_pos_sym='.', direction=1
+new_pos=(8, 12), new_pos_sym='.', direction=1
+new_pos=(8, 13), new_pos_sym='.', direction=1
+new_pos=(8, 14), new_pos_sym='.', direction=1
+new_pos=(8, 15), new_pos_sym='.', direction=1
+new_pos=(8, 16), new_pos_sym='.', direction=1
+new_pos=(8, 17), new_pos_sym='.', direction=1
+new_pos=(8, 18), new_pos_sym='.', direction=1
+new_pos=(8, 19), new_pos_sym='.', direction=1
+new_pos=(8, 20), new_pos_sym='.', direction=1
+new_pos=(8, 21), new_pos_sym='.', direction=1
+new_pos=(8, 22), new_pos_sym='.', direction=1
+new_pos=(8, 23), new_pos_sym='.', direction=1
+new_pos=(8, 24), new_pos_sym='.', direction=1
+new_pos=(8, 25), new_pos_sym='.', direction=1
+new_pos=(8, 26), new_pos_sym='.', direction=1
+new_pos=(8, 27), new_pos_sym='.', direction=1
+new_pos=(8, 28), new_pos_sym='.', direction=1
+new_pos=(8, 29), new_pos_sym='.', direction=1
+new_pos=(8, 30), new_pos_sym='/', direction=1
+new_pos=(7, 30), new_pos_sym='.', direction=2
+new_pos=(6, 30), new_pos_sym='.', direction=2
+new_pos=(5, 30), new_pos_sym='.', direction=2
+new_pos=(4, 30), new_pos_sym='.', direction=2
+new_pos=(3, 30), new_pos_sym='-', direction=2
+new_pos=(3, 29), new_pos_sym='.', direction=-1
+new_pos=(3, 28), new_pos_sym='.', direction=-1
+new_pos=(3, 27), new_pos_sym='.', direction=-1
+new_pos=(3, 26), new_pos_sym='.', direction=-1
+new_pos=(3, 25), new_pos_sym='.', direction=-1
+new_pos=(3, 24), new_pos_sym='|', direction=-1
+new_pos=(2, 24), new_pos_sym='.', direction=2
+new_pos=(1, 24), new_pos_sym='.', direction=2
+new_pos=(0, 24), new_pos_sym='.', direction=2
+one beam left the map
+new_pos=(4, 24), new_pos_sym='.', direction=-2
+new_pos=(5, 24), new_pos_sym='.', direction=-2
+new_pos=(6, 24), new_pos_sym='.', direction=-2
+new_pos=(7, 24), new_pos_sym='.', direction=-2
+new_pos=(8, 24), new_pos_sym='.', direction=-2
+new_pos=(9, 24), new_pos_sym='.', direction=-2
+new_pos=(10, 24), new_pos_sym='.', direction=-2
+new_pos=(11, 24), new_pos_sym='.', direction=-2
+new_pos=(12, 24), new_pos_sym='.', direction=-2
+new_pos=(13, 24), new_pos_sym='.', direction=-2
+new_pos=(14, 24), new_pos_sym='.', direction=-2
+new_pos=(15, 24), new_pos_sym='.', direction=-2
+new_pos=(16, 24), new_pos_sym='.', direction=-2
+new_pos=(17, 24), new_pos_sym='-', direction=-2
+new_pos=(17, 23), new_pos_sym='.', direction=-1
+new_pos=(17, 22), new_pos_sym='.', direction=-1
+new_pos=(17, 21), new_pos_sym='.', direction=-1
+new_pos=(17, 20), new_pos_sym='.', direction=-1
+new_pos=(17, 19), new_pos_sym='.', direction=-1
+new_pos=(17, 18), new_pos_sym='.', direction=-1
+new_pos=(17, 17), new_pos_sym='.', direction=-1
+new_pos=(17, 16), new_pos_sym='.', direction=-1
+new_pos=(17, 15), new_pos_sym='.', direction=-1
+new_pos=(17, 14), new_pos_sym='.', direction=-1
+new_pos=(17, 13), new_pos_sym='.', direction=-1
+new_pos=(17, 12), new_pos_sym='.', direction=-1
+new_pos=(17, 11), new_pos_sym='.', direction=-1
+new_pos=(17, 10), new_pos_sym='.', direction=-1
+new_pos=(17, 9), new_pos_sym='.', direction=-1
+new_pos=(17, 8), new_pos_sym='.', direction=-1
+new_pos=(17, 7), new_pos_sym='.', direction=-1
+new_pos=(17, 6), new_pos_sym='.', direction=-1
+new_pos=(17, 5), new_pos_sym='.', direction=-1
+new_pos=(17, 4), new_pos_sym='.', direction=-1
+new_pos=(17, 3), new_pos_sym='.', direction=-1
+new_pos=(17, 2), new_pos_sym='.', direction=-1
+new_pos=(17, 1), new_pos_sym='.', direction=-1
+new_pos=(17, 0), new_pos_sym='.', direction=-1
+one beam left the map
+new_pos=(17, 25), new_pos_sym='.', direction=1
+new_pos=(17, 26), new_pos_sym='.', direction=1
+new_pos=(17, 27), new_pos_sym='.', direction=1
+new_pos=(17, 28), new_pos_sym='/', direction=1
+new_pos=(16, 28), new_pos_sym='.', direction=2
+new_pos=(15, 28), new_pos_sym='.', direction=2
+new_pos=(14, 28), new_pos_sym='\\', direction=2
+new_pos=(14, 27), new_pos_sym='.', direction=-1
+new_pos=(14, 26), new_pos_sym='.', direction=-1
+new_pos=(14, 25), new_pos_sym='.', direction=-1
+new_pos=(14, 24), new_pos_sym='.', direction=-1
+new_pos=(14, 23), new_pos_sym='.', direction=-1
+new_pos=(14, 22), new_pos_sym='.', direction=-1
+new_pos=(14, 21), new_pos_sym='.', direction=-1
+new_pos=(14, 20), new_pos_sym='.', direction=-1
+new_pos=(14, 19), new_pos_sym='.', direction=-1
+new_pos=(14, 18), new_pos_sym='.', direction=-1
+new_pos=(14, 17), new_pos_sym='|', direction=-1
+new_pos=(13, 17), new_pos_sym='.', direction=2
+new_pos=(12, 17), new_pos_sym='.', direction=2
+new_pos=(11, 17), new_pos_sym='.', direction=2
+new_pos=(10, 17), new_pos_sym='.', direction=2
+new_pos=(9, 17), new_pos_sym='.', direction=2
+new_pos=(8, 17), new_pos_sym='.', direction=2
+new_pos=(7, 17), new_pos_sym='.', direction=2
+new_pos=(6, 17), new_pos_sym='.', direction=2
+new_pos=(5, 17), new_pos_sym='.', direction=2
+new_pos=(4, 17), new_pos_sym='.', direction=2
+new_pos=(3, 17), new_pos_sym='.', direction=2
+new_pos=(2, 17), new_pos_sym='.', direction=2
+new_pos=(1, 17), new_pos_sym='.', direction=2
+new_pos=(0, 17), new_pos_sym='.', direction=2
+one beam left the map
+new_pos=(15, 17), new_pos_sym='.', direction=-2
+new_pos=(16, 17), new_pos_sym='.', direction=-2
+new_pos=(17, 17), new_pos_sym='.', direction=-2
+new_pos=(18, 17), new_pos_sym='/', direction=-2
+new_pos=(18, 16), new_pos_sym='.', direction=-1
+new_pos=(18, 15), new_pos_sym='.', direction=-1
+new_pos=(18, 14), new_pos_sym='.', direction=-1
+new_pos=(18, 13), new_pos_sym='.', direction=-1
+new_pos=(18, 12), new_pos_sym='.', direction=-1
+new_pos=(18, 11), new_pos_sym='.', direction=-1
+new_pos=(18, 10), new_pos_sym='-', direction=-1
+new_pos=(18, 9), new_pos_sym='.', direction=-1
+new_pos=(18, 8), new_pos_sym='.', direction=-1
+new_pos=(18, 7), new_pos_sym='.', direction=-1
+new_pos=(18, 6), new_pos_sym='.', direction=-1
+new_pos=(18, 5), new_pos_sym='.', direction=-1
+new_pos=(18, 4), new_pos_sym='.', direction=-1
+new_pos=(18, 3), new_pos_sym='.', direction=-1
+new_pos=(18, 2), new_pos_sym='.', direction=-1
+new_pos=(18, 1), new_pos_sym='.', direction=-1
+new_pos=(18, 0), new_pos_sym='\\', direction=-1
+new_pos=(17, 0), new_pos_sym='.', direction=2
+new_pos=(16, 0), new_pos_sym='.', direction=2
+new_pos=(15, 0), new_pos_sym='-', direction=2
+one beam left the map
+new_pos=(3, 31), new_pos_sym='.', direction=1
+new_pos=(3, 32), new_pos_sym='.', direction=1
+new_pos=(3, 33), new_pos_sym='.', direction=1
+new_pos=(3, 34), new_pos_sym='.', direction=1
+new_pos=(3, 35), new_pos_sym='.', direction=1
+new_pos=(3, 36), new_pos_sym='.', direction=1
+new_pos=(3, 37), new_pos_sym='.', direction=1
+new_pos=(3, 38), new_pos_sym='.', direction=1
+new_pos=(3, 39), new_pos_sym='.', direction=1
+new_pos=(3, 40), new_pos_sym='.', direction=1
+new_pos=(3, 41), new_pos_sym='.', direction=1
+new_pos=(3, 42), new_pos_sym='.', direction=1
+new_pos=(3, 43), new_pos_sym='.', direction=1
+new_pos=(3, 44), new_pos_sym='.', direction=1
+new_pos=(3, 45), new_pos_sym='.', direction=1
+new_pos=(3, 46), new_pos_sym='.', direction=1
+new_pos=(3, 47), new_pos_sym='.', direction=1
+new_pos=(3, 48), new_pos_sym='.', direction=1
+new_pos=(3, 49), new_pos_sym='.', direction=1
+new_pos=(3, 50), new_pos_sym='.', direction=1
+new_pos=(3, 51), new_pos_sym='.', direction=1
+new_pos=(3, 52), new_pos_sym='.', direction=1
+new_pos=(3, 53), new_pos_sym='.', direction=1
+new_pos=(3, 54), new_pos_sym='-', direction=1
+new_pos=(3, 55), new_pos_sym='.', direction=1
+new_pos=(3, 56), new_pos_sym='.', direction=1
+new_pos=(3, 57), new_pos_sym='.', direction=1
+new_pos=(3, 58), new_pos_sym='.', direction=1
+new_pos=(3, 59), new_pos_sym='.', direction=1
+new_pos=(3, 60), new_pos_sym='.', direction=1
+new_pos=(3, 61), new_pos_sym='.', direction=1
+new_pos=(3, 62), new_pos_sym='.', direction=1
+new_pos=(3, 63), new_pos_sym='\\', direction=1
+new_pos=(4, 63), new_pos_sym='.', direction=-2
+new_pos=(5, 63), new_pos_sym='.', direction=-2
+new_pos=(6, 63), new_pos_sym='.', direction=-2
+new_pos=(7, 63), new_pos_sym='.', direction=-2
+new_pos=(8, 63), new_pos_sym='.', direction=-2
+new_pos=(9, 63), new_pos_sym='\\', direction=-2
+new_pos=(9, 64), new_pos_sym='-', direction=1
+new_pos=(9, 65), new_pos_sym='.', direction=1
+new_pos=(9, 66), new_pos_sym='.', direction=1
+new_pos=(9, 67), new_pos_sym='-', direction=1
+new_pos=(9, 68), new_pos_sym='.', direction=1
+new_pos=(9, 69), new_pos_sym='.', direction=1
+new_pos=(9, 70), new_pos_sym='.', direction=1
+new_pos=(9, 71), new_pos_sym='|', direction=1
+new_pos=(8, 71), new_pos_sym='.', direction=2
+new_pos=(7, 71), new_pos_sym='.', direction=2
+new_pos=(6, 71), new_pos_sym='.', direction=2
+new_pos=(5, 71), new_pos_sym='.', direction=2
+new_pos=(4, 71), new_pos_sym='.', direction=2
+new_pos=(3, 71), new_pos_sym='.', direction=2
+new_pos=(2, 71), new_pos_sym='.', direction=2
+new_pos=(1, 71), new_pos_sym='.', direction=2
+new_pos=(0, 71), new_pos_sym='.', direction=2
+one beam left the map
+new_pos=(10, 71), new_pos_sym='.', direction=-2
+new_pos=(11, 71), new_pos_sym='.', direction=-2
+new_pos=(12, 71), new_pos_sym='.', direction=-2
+new_pos=(13, 71), new_pos_sym='.', direction=-2
+new_pos=(14, 71), new_pos_sym='.', direction=-2
+new_pos=(15, 71), new_pos_sym='.', direction=-2
+new_pos=(16, 71), new_pos_sym='.', direction=-2
+new_pos=(17, 71), new_pos_sym='.', direction=-2
+new_pos=(18, 71), new_pos_sym='.', direction=-2
+new_pos=(19, 71), new_pos_sym='.', direction=-2
+new_pos=(20, 71), new_pos_sym='.', direction=-2
+new_pos=(21, 71), new_pos_sym='.', direction=-2
+new_pos=(22, 71), new_pos_sym='.', direction=-2
+new_pos=(23, 71), new_pos_sym='.', direction=-2
+new_pos=(24, 71), new_pos_sym='.', direction=-2
+new_pos=(25, 71), new_pos_sym='.', direction=-2
+new_pos=(26, 71), new_pos_sym='|', direction=-2
+new_pos=(27, 71), new_pos_sym='.', direction=-2
+new_pos=(28, 71), new_pos_sym='.', direction=-2
+new_pos=(29, 71), new_pos_sym='.', direction=-2
+new_pos=(30, 71), new_pos_sym='.', direction=-2
+new_pos=(31, 71), new_pos_sym='.', direction=-2
+new_pos=(32, 71), new_pos_sym='.', direction=-2
+new_pos=(33, 71), new_pos_sym='.', direction=-2
+new_pos=(34, 71), new_pos_sym='.', direction=-2
+new_pos=(35, 71), new_pos_sym='.', direction=-2
+new_pos=(36, 71), new_pos_sym='.', direction=-2
+new_pos=(37, 71), new_pos_sym='.', direction=-2
+new_pos=(38, 71), new_pos_sym='.', direction=-2
+new_pos=(39, 71), new_pos_sym='.', direction=-2
+new_pos=(40, 71), new_pos_sym='\\', direction=-2
+new_pos=(40, 72), new_pos_sym='.', direction=1
+new_pos=(40, 73), new_pos_sym='.', direction=1
+new_pos=(40, 74), new_pos_sym='.', direction=1
+new_pos=(40, 75), new_pos_sym='.', direction=1
+new_pos=(40, 76), new_pos_sym='.', direction=1
+new_pos=(40, 77), new_pos_sym='.', direction=1
+new_pos=(40, 78), new_pos_sym='.', direction=1
+new_pos=(40, 79), new_pos_sym='/', direction=1
+new_pos=(39, 79), new_pos_sym='.', direction=2
+new_pos=(38, 79), new_pos_sym='.', direction=2
+new_pos=(37, 79), new_pos_sym='.', direction=2
+new_pos=(36, 79), new_pos_sym='.', direction=2
+new_pos=(35, 79), new_pos_sym='.', direction=2
+new_pos=(34, 79), new_pos_sym='.', direction=2
+new_pos=(33, 79), new_pos_sym='.', direction=2
+new_pos=(32, 79), new_pos_sym='.', direction=2
+new_pos=(31, 79), new_pos_sym='.', direction=2
+new_pos=(30, 79), new_pos_sym='.', direction=2
+new_pos=(29, 79), new_pos_sym='.', direction=2
+new_pos=(28, 79), new_pos_sym='.', direction=2
+new_pos=(27, 79), new_pos_sym='.', direction=2
+new_pos=(26, 79), new_pos_sym='.', direction=2
+new_pos=(25, 79), new_pos_sym='\\', direction=2
+new_pos=(25, 78), new_pos_sym='.', direction=-1
+new_pos=(25, 77), new_pos_sym='.', direction=-1
+new_pos=(25, 76), new_pos_sym='.', direction=-1
+new_pos=(25, 75), new_pos_sym='.', direction=-1
+new_pos=(25, 74), new_pos_sym='.', direction=-1
+new_pos=(25, 73), new_pos_sym='.', direction=-1
+new_pos=(25, 72), new_pos_sym='.', direction=-1
+new_pos=(25, 71), new_pos_sym='.', direction=-1
+new_pos=(25, 70), new_pos_sym='.', direction=-1
+new_pos=(25, 69), new_pos_sym='.', direction=-1
+new_pos=(25, 68), new_pos_sym='.', direction=-1
+new_pos=(25, 67), new_pos_sym='.', direction=-1
+new_pos=(25, 66), new_pos_sym='.', direction=-1
+new_pos=(25, 65), new_pos_sym='.', direction=-1
+new_pos=(25, 64), new_pos_sym='.', direction=-1
+new_pos=(25, 63), new_pos_sym='-', direction=-1
+new_pos=(25, 62), new_pos_sym='.', direction=-1
+new_pos=(25, 61), new_pos_sym='/', direction=-1
+new_pos=(26, 61), new_pos_sym='.', direction=-2
+new_pos=(27, 61), new_pos_sym='.', direction=-2
+new_pos=(28, 61), new_pos_sym='.', direction=-2
+new_pos=(29, 61), new_pos_sym='.', direction=-2
+new_pos=(30, 61), new_pos_sym='.', direction=-2
+new_pos=(31, 61), new_pos_sym='.', direction=-2
+new_pos=(32, 61), new_pos_sym='.', direction=-2
+new_pos=(33, 61), new_pos_sym='.', direction=-2
+new_pos=(34, 61), new_pos_sym='.', direction=-2
+new_pos=(35, 61), new_pos_sym='.', direction=-2
+new_pos=(36, 61), new_pos_sym='.', direction=-2
+new_pos=(37, 61), new_pos_sym='.', direction=-2
+new_pos=(38, 61), new_pos_sym='.', direction=-2
+new_pos=(39, 61), new_pos_sym='.', direction=-2
+new_pos=(40, 61), new_pos_sym='.', direction=-2
+new_pos=(41, 61), new_pos_sym='.', direction=-2
+new_pos=(42, 61), new_pos_sym='.', direction=-2
+new_pos=(43, 61), new_pos_sym='.', direction=-2
+new_pos=(44, 61), new_pos_sym='.', direction=-2
+new_pos=(45, 61), new_pos_sym='|', direction=-2
+new_pos=(46, 61), new_pos_sym='.', direction=-2
+new_pos=(47, 61), new_pos_sym='-', direction=-2
+new_pos=(47, 60), new_pos_sym='.', direction=-1
+new_pos=(47, 59), new_pos_sym='.', direction=-1
+new_pos=(47, 58), new_pos_sym='|', direction=-1
+new_pos=(46, 58), new_pos_sym='.', direction=2
+new_pos=(45, 58), new_pos_sym='.', direction=2
+new_pos=(44, 58), new_pos_sym='.', direction=2
+new_pos=(43, 58), new_pos_sym='.', direction=2
+new_pos=(42, 58), new_pos_sym='.', direction=2
+new_pos=(41, 58), new_pos_sym='.', direction=2
+new_pos=(40, 58), new_pos_sym='.', direction=2
+new_pos=(39, 58), new_pos_sym='.', direction=2
+new_pos=(38, 58), new_pos_sym='.', direction=2
+new_pos=(37, 58), new_pos_sym='.', direction=2
+new_pos=(36, 58), new_pos_sym='.', direction=2
+new_pos=(35, 58), new_pos_sym='/', direction=2
+new_pos=(35, 59), new_pos_sym='.', direction=1
+new_pos=(35, 60), new_pos_sym='.', direction=1
+new_pos=(35, 61), new_pos_sym='.', direction=1
+new_pos=(35, 62), new_pos_sym='.', direction=1
+new_pos=(35, 63), new_pos_sym='.', direction=1
+new_pos=(35, 64), new_pos_sym='.', direction=1
+new_pos=(35, 65), new_pos_sym='.', direction=1
+new_pos=(35, 66), new_pos_sym='/', direction=1
+new_pos=(34, 66), new_pos_sym='/', direction=2
+new_pos=(34, 67), new_pos_sym='.', direction=1
+new_pos=(34, 68), new_pos_sym='.', direction=1
+new_pos=(34, 69), new_pos_sym='.', direction=1
+new_pos=(34, 70), new_pos_sym='.', direction=1
+new_pos=(34, 71), new_pos_sym='.', direction=1
+new_pos=(34, 72), new_pos_sym='.', direction=1
+new_pos=(34, 73), new_pos_sym='.', direction=1
+new_pos=(34, 74), new_pos_sym='.', direction=1
+new_pos=(34, 75), new_pos_sym='.', direction=1
+new_pos=(34, 76), new_pos_sym='.', direction=1
+new_pos=(34, 77), new_pos_sym='.', direction=1
+new_pos=(34, 78), new_pos_sym='.', direction=1
+new_pos=(34, 79), new_pos_sym='.', direction=1
+new_pos=(34, 80), new_pos_sym='.', direction=1
+new_pos=(34, 81), new_pos_sym='.', direction=1
+new_pos=(34, 82), new_pos_sym='.', direction=1
+new_pos=(34, 83), new_pos_sym='.', direction=1
+new_pos=(34, 84), new_pos_sym='.', direction=1
+new_pos=(34, 85), new_pos_sym='.', direction=1
+new_pos=(34, 86), new_pos_sym='.', direction=1
+new_pos=(34, 87), new_pos_sym='.', direction=1
+new_pos=(34, 88), new_pos_sym='.', direction=1
+new_pos=(34, 89), new_pos_sym='.', direction=1
+new_pos=(34, 90), new_pos_sym='.', direction=1
+new_pos=(34, 91), new_pos_sym='.', direction=1
+new_pos=(34, 92), new_pos_sym='.', direction=1
+new_pos=(34, 93), new_pos_sym='.', direction=1
+new_pos=(34, 94), new_pos_sym='.', direction=1
+new_pos=(34, 95), new_pos_sym='.', direction=1
+new_pos=(34, 96), new_pos_sym='.', direction=1
+new_pos=(34, 97), new_pos_sym='.', direction=1
+new_pos=(34, 98), new_pos_sym='.', direction=1
+new_pos=(34, 99), new_pos_sym='.', direction=1
+new_pos=(34, 100), new_pos_sym='.', direction=1
+new_pos=(34, 101), new_pos_sym='.', direction=1
+new_pos=(34, 102), new_pos_sym='.', direction=1
+new_pos=(34, 103), new_pos_sym='.', direction=1
+new_pos=(34, 104), new_pos_sym='.', direction=1
+new_pos=(34, 105), new_pos_sym='.', direction=1
+new_pos=(34, 106), new_pos_sym='.', direction=1
+new_pos=(34, 107), new_pos_sym='.', direction=1
+new_pos=(34, 108), new_pos_sym='.', direction=1
+new_pos=(34, 109), new_pos_sym='.', direction=1
+one beam left the map
+new_pos=(48, 58), new_pos_sym='.', direction=-2
+new_pos=(49, 58), new_pos_sym='.', direction=-2
+new_pos=(50, 58), new_pos_sym='.', direction=-2
+new_pos=(51, 58), new_pos_sym='.', direction=-2
+new_pos=(52, 58), new_pos_sym='.', direction=-2
+new_pos=(53, 58), new_pos_sym='.', direction=-2
+new_pos=(54, 58), new_pos_sym='.', direction=-2
+new_pos=(55, 58), new_pos_sym='.', direction=-2
+new_pos=(56, 58), new_pos_sym='.', direction=-2
+new_pos=(57, 58), new_pos_sym='.', direction=-2
+new_pos=(58, 58), new_pos_sym='.', direction=-2
+new_pos=(59, 58), new_pos_sym='.', direction=-2
+new_pos=(60, 58), new_pos_sym='.', direction=-2
+new_pos=(61, 58), new_pos_sym='.', direction=-2
+new_pos=(62, 58), new_pos_sym='.', direction=-2
+new_pos=(63, 58), new_pos_sym='.', direction=-2
+new_pos=(64, 58), new_pos_sym='.', direction=-2
+new_pos=(65, 58), new_pos_sym='.', direction=-2
+new_pos=(66, 58), new_pos_sym='.', direction=-2
+new_pos=(67, 58), new_pos_sym='.', direction=-2
+new_pos=(68, 58), new_pos_sym='.', direction=-2
+new_pos=(69, 58), new_pos_sym='.', direction=-2
+new_pos=(70, 58), new_pos_sym='.', direction=-2
+new_pos=(71, 58), new_pos_sym='.', direction=-2
+new_pos=(72, 58), new_pos_sym='.', direction=-2
+new_pos=(73, 58), new_pos_sym='.', direction=-2
+new_pos=(74, 58), new_pos_sym='.', direction=-2
+new_pos=(75, 58), new_pos_sym='.', direction=-2
+new_pos=(76, 58), new_pos_sym='.', direction=-2
+new_pos=(77, 58), new_pos_sym='.', direction=-2
+new_pos=(78, 58), new_pos_sym='.', direction=-2
+new_pos=(79, 58), new_pos_sym='\\', direction=-2
+new_pos=(79, 59), new_pos_sym='.', direction=1
+new_pos=(79, 60), new_pos_sym='.', direction=1
+new_pos=(79, 61), new_pos_sym='.', direction=1
+new_pos=(79, 62), new_pos_sym='.', direction=1
+new_pos=(79, 63), new_pos_sym='.', direction=1
+new_pos=(79, 64), new_pos_sym='.', direction=1
+new_pos=(79, 65), new_pos_sym='.', direction=1
+new_pos=(79, 66), new_pos_sym='.', direction=1
+new_pos=(79, 67), new_pos_sym='.', direction=1
+new_pos=(79, 68), new_pos_sym='.', direction=1
+new_pos=(79, 69), new_pos_sym='.', direction=1
+new_pos=(79, 70), new_pos_sym='.', direction=1
+new_pos=(79, 71), new_pos_sym='/', direction=1
+new_pos=(78, 71), new_pos_sym='-', direction=2
+new_pos=(78, 70), new_pos_sym='.', direction=-1
+new_pos=(78, 69), new_pos_sym='.', direction=-1
+new_pos=(78, 68), new_pos_sym='.', direction=-1
+new_pos=(78, 67), new_pos_sym='.', direction=-1
+new_pos=(78, 66), new_pos_sym='.', direction=-1
+new_pos=(78, 65), new_pos_sym='.', direction=-1
+new_pos=(78, 64), new_pos_sym='/', direction=-1
+new_pos=(79, 64), new_pos_sym='.', direction=-2
+new_pos=(80, 64), new_pos_sym='.', direction=-2
+new_pos=(81, 64), new_pos_sym='.', direction=-2
+new_pos=(82, 64), new_pos_sym='.', direction=-2
+new_pos=(83, 64), new_pos_sym='\\', direction=-2
+new_pos=(83, 65), new_pos_sym='.', direction=1
+new_pos=(83, 66), new_pos_sym='.', direction=1
+new_pos=(83, 67), new_pos_sym='.', direction=1
+new_pos=(83, 68), new_pos_sym='.', direction=1
+new_pos=(83, 69), new_pos_sym='\\', direction=1
+new_pos=(84, 69), new_pos_sym='.', direction=-2
+new_pos=(85, 69), new_pos_sym='.', direction=-2
+new_pos=(86, 69), new_pos_sym='\\', direction=-2
+new_pos=(86, 70), new_pos_sym='.', direction=1
+new_pos=(86, 71), new_pos_sym='.', direction=1
+new_pos=(86, 72), new_pos_sym='.', direction=1
+new_pos=(86, 73), new_pos_sym='.', direction=1
+new_pos=(86, 74), new_pos_sym='.', direction=1
+new_pos=(86, 75), new_pos_sym='.', direction=1
+new_pos=(86, 76), new_pos_sym='.', direction=1
+new_pos=(86, 77), new_pos_sym='.', direction=1
+new_pos=(86, 78), new_pos_sym='.', direction=1
+new_pos=(86, 79), new_pos_sym='.', direction=1
+new_pos=(86, 80), new_pos_sym='.', direction=1
+new_pos=(86, 81), new_pos_sym='.', direction=1
+new_pos=(86, 82), new_pos_sym='.', direction=1
+new_pos=(86, 83), new_pos_sym='.', direction=1
+new_pos=(86, 84), new_pos_sym='.', direction=1
+new_pos=(86, 85), new_pos_sym='.', direction=1
+new_pos=(86, 86), new_pos_sym='.', direction=1
+new_pos=(86, 87), new_pos_sym='-', direction=1
+new_pos=(86, 88), new_pos_sym='/', direction=1
+new_pos=(85, 88), new_pos_sym='.', direction=2
+new_pos=(84, 88), new_pos_sym='.', direction=2
+new_pos=(83, 88), new_pos_sym='.', direction=2
+new_pos=(82, 88), new_pos_sym='.', direction=2
+new_pos=(81, 88), new_pos_sym='.', direction=2
+new_pos=(80, 88), new_pos_sym='.', direction=2
+new_pos=(79, 88), new_pos_sym='.', direction=2
+new_pos=(78, 88), new_pos_sym='.', direction=2
+new_pos=(77, 88), new_pos_sym='.', direction=2
+new_pos=(76, 88), new_pos_sym='.', direction=2
+new_pos=(75, 88), new_pos_sym='.', direction=2
+new_pos=(74, 88), new_pos_sym='.', direction=2
+new_pos=(73, 88), new_pos_sym='.', direction=2
+new_pos=(72, 88), new_pos_sym='.', direction=2
+new_pos=(71, 88), new_pos_sym='.', direction=2
+new_pos=(70, 88), new_pos_sym='|', direction=2
+new_pos=(69, 88), new_pos_sym='.', direction=2
+new_pos=(68, 88), new_pos_sym='.', direction=2
+new_pos=(67, 88), new_pos_sym='.', direction=2
+new_pos=(66, 88), new_pos_sym='.', direction=2
+new_pos=(65, 88), new_pos_sym='.', direction=2
+new_pos=(64, 88), new_pos_sym='.', direction=2
+new_pos=(63, 88), new_pos_sym='.', direction=2
+new_pos=(62, 88), new_pos_sym='.', direction=2
+new_pos=(61, 88), new_pos_sym='.', direction=2
+new_pos=(60, 88), new_pos_sym='.', direction=2
+new_pos=(59, 88), new_pos_sym='.', direction=2
+new_pos=(58, 88), new_pos_sym='.', direction=2
+new_pos=(57, 88), new_pos_sym='.', direction=2
+new_pos=(56, 88), new_pos_sym='.', direction=2
+new_pos=(55, 88), new_pos_sym='.', direction=2
+new_pos=(54, 88), new_pos_sym='.', direction=2
+new_pos=(53, 88), new_pos_sym='.', direction=2
+new_pos=(52, 88), new_pos_sym='.', direction=2
+new_pos=(51, 88), new_pos_sym='.', direction=2
+new_pos=(50, 88), new_pos_sym='.', direction=2
+new_pos=(49, 88), new_pos_sym='.', direction=2
+new_pos=(48, 88), new_pos_sym='.', direction=2
+new_pos=(47, 88), new_pos_sym='.', direction=2
+new_pos=(46, 88), new_pos_sym='.', direction=2
+new_pos=(45, 88), new_pos_sym='.', direction=2
+new_pos=(44, 88), new_pos_sym='.', direction=2
+new_pos=(43, 88), new_pos_sym='.', direction=2
+new_pos=(42, 88), new_pos_sym='.', direction=2
+new_pos=(41, 88), new_pos_sym='.', direction=2
+new_pos=(40, 88), new_pos_sym='-', direction=2
+new_pos=(40, 87), new_pos_sym='.', direction=-1
+new_pos=(40, 86), new_pos_sym='.', direction=-1
+new_pos=(40, 85), new_pos_sym='.', direction=-1
+new_pos=(40, 84), new_pos_sym='.', direction=-1
+new_pos=(40, 83), new_pos_sym='.', direction=-1
+new_pos=(40, 82), new_pos_sym='|', direction=-1
+new_pos=(39, 82), new_pos_sym='.', direction=2
+new_pos=(38, 82), new_pos_sym='.', direction=2
+new_pos=(37, 82), new_pos_sym='.', direction=2
+new_pos=(36, 82), new_pos_sym='.', direction=2
+new_pos=(35, 82), new_pos_sym='.', direction=2
+new_pos=(34, 82), new_pos_sym='.', direction=2
+new_pos=(33, 82), new_pos_sym='.', direction=2
+new_pos=(32, 82), new_pos_sym='.', direction=2
+new_pos=(31, 82), new_pos_sym='.', direction=2
+new_pos=(30, 82), new_pos_sym='.', direction=2
+new_pos=(29, 82), new_pos_sym='.', direction=2
+new_pos=(28, 82), new_pos_sym='.', direction=2
+new_pos=(27, 82), new_pos_sym='.', direction=2
+new_pos=(26, 82), new_pos_sym='.', direction=2
+new_pos=(25, 82), new_pos_sym='.', direction=2
+new_pos=(24, 82), new_pos_sym='.', direction=2
+new_pos=(23, 82), new_pos_sym='.', direction=2
+new_pos=(22, 82), new_pos_sym='.', direction=2
+new_pos=(21, 82), new_pos_sym='.', direction=2
+new_pos=(20, 82), new_pos_sym='.', direction=2
+new_pos=(19, 82), new_pos_sym='.', direction=2
+new_pos=(18, 82), new_pos_sym='.', direction=2
+new_pos=(17, 82), new_pos_sym='.', direction=2
+new_pos=(16, 82), new_pos_sym='.', direction=2
+new_pos=(15, 82), new_pos_sym='.', direction=2
+new_pos=(14, 82), new_pos_sym='.', direction=2
+new_pos=(13, 82), new_pos_sym='.', direction=2
+new_pos=(12, 82), new_pos_sym='.', direction=2
+new_pos=(11, 82), new_pos_sym='.', direction=2
+new_pos=(10, 82), new_pos_sym='.', direction=2
+new_pos=(9, 82), new_pos_sym='.', direction=2
+new_pos=(8, 82), new_pos_sym='.', direction=2
+new_pos=(7, 82), new_pos_sym='\\', direction=2
+new_pos=(7, 81), new_pos_sym='.', direction=-1
+new_pos=(7, 80), new_pos_sym='.', direction=-1
+new_pos=(7, 79), new_pos_sym='.', direction=-1
+new_pos=(7, 78), new_pos_sym='.', direction=-1
+new_pos=(7, 77), new_pos_sym='.', direction=-1
+new_pos=(7, 76), new_pos_sym='.', direction=-1
+new_pos=(7, 75), new_pos_sym='.', direction=-1
+new_pos=(7, 74), new_pos_sym='.', direction=-1
+new_pos=(7, 73), new_pos_sym='.', direction=-1
+new_pos=(7, 72), new_pos_sym='.', direction=-1
+new_pos=(7, 71), new_pos_sym='.', direction=-1
+new_pos=(7, 70), new_pos_sym='.', direction=-1
+new_pos=(7, 69), new_pos_sym='.', direction=-1
+new_pos=(7, 68), new_pos_sym='.', direction=-1
+new_pos=(7, 67), new_pos_sym='.', direction=-1
+new_pos=(7, 66), new_pos_sym='|', direction=-1
+new_pos=(6, 66), new_pos_sym='.', direction=2
+new_pos=(5, 66), new_pos_sym='.', direction=2
+new_pos=(4, 66), new_pos_sym='.', direction=2
+new_pos=(3, 66), new_pos_sym='.', direction=2
+new_pos=(2, 66), new_pos_sym='.', direction=2
+new_pos=(1, 66), new_pos_sym='.', direction=2
+new_pos=(0, 66), new_pos_sym='.', direction=2
+one beam left the map
+new_pos=(8, 66), new_pos_sym='.', direction=-2
+new_pos=(9, 66), new_pos_sym='.', direction=-2
+new_pos=(10, 66), new_pos_sym='.', direction=-2
+new_pos=(11, 66), new_pos_sym='.', direction=-2
+new_pos=(12, 66), new_pos_sym='.', direction=-2
+new_pos=(13, 66), new_pos_sym='|', direction=-2
+new_pos=(14, 66), new_pos_sym='.', direction=-2
+new_pos=(15, 66), new_pos_sym='.', direction=-2
+new_pos=(16, 66), new_pos_sym='.', direction=-2
+new_pos=(17, 66), new_pos_sym='.', direction=-2
+new_pos=(18, 66), new_pos_sym='-', direction=-2
+new_pos=(18, 65), new_pos_sym='/', direction=-1
+new_pos=(19, 65), new_pos_sym='.', direction=-2
+new_pos=(20, 65), new_pos_sym='.', direction=-2
+new_pos=(21, 65), new_pos_sym='.', direction=-2
+new_pos=(22, 65), new_pos_sym='.', direction=-2
+new_pos=(23, 65), new_pos_sym='.', direction=-2
+new_pos=(24, 65), new_pos_sym='.', direction=-2
+new_pos=(25, 65), new_pos_sym='.', direction=-2
+new_pos=(26, 65), new_pos_sym='.', direction=-2
+new_pos=(27, 65), new_pos_sym='.', direction=-2
+new_pos=(28, 65), new_pos_sym='.', direction=-2
+new_pos=(29, 65), new_pos_sym='.', direction=-2
+new_pos=(30, 65), new_pos_sym='.', direction=-2
+new_pos=(31, 65), new_pos_sym='.', direction=-2
+new_pos=(32, 65), new_pos_sym='.', direction=-2
+new_pos=(33, 65), new_pos_sym='.', direction=-2
+new_pos=(34, 65), new_pos_sym='.', direction=-2
+new_pos=(35, 65), new_pos_sym='.', direction=-2
+new_pos=(36, 65), new_pos_sym='.', direction=-2
+new_pos=(37, 65), new_pos_sym='.', direction=-2
+new_pos=(38, 65), new_pos_sym='.', direction=-2
+new_pos=(39, 65), new_pos_sym='.', direction=-2
+new_pos=(40, 65), new_pos_sym='.', direction=-2
+new_pos=(41, 65), new_pos_sym='.', direction=-2
+new_pos=(42, 65), new_pos_sym='.', direction=-2
+new_pos=(43, 65), new_pos_sym='.', direction=-2
+new_pos=(44, 65), new_pos_sym='.', direction=-2
+new_pos=(45, 65), new_pos_sym='.', direction=-2
+new_pos=(46, 65), new_pos_sym='.', direction=-2
+new_pos=(47, 65), new_pos_sym='.', direction=-2
+new_pos=(48, 65), new_pos_sym='.', direction=-2
+new_pos=(49, 65), new_pos_sym='.', direction=-2
+new_pos=(50, 65), new_pos_sym='.', direction=-2
+new_pos=(51, 65), new_pos_sym='.', direction=-2
+new_pos=(52, 65), new_pos_sym='.', direction=-2
+new_pos=(53, 65), new_pos_sym='.', direction=-2
+new_pos=(54, 65), new_pos_sym='.', direction=-2
+new_pos=(55, 65), new_pos_sym='.', direction=-2
+new_pos=(56, 65), new_pos_sym='.', direction=-2
+new_pos=(57, 65), new_pos_sym='.', direction=-2
+new_pos=(58, 65), new_pos_sym='.', direction=-2
+new_pos=(59, 65), new_pos_sym='.', direction=-2
+new_pos=(60, 65), new_pos_sym='.', direction=-2
+new_pos=(61, 65), new_pos_sym='.', direction=-2
+new_pos=(62, 65), new_pos_sym='.', direction=-2
+new_pos=(63, 65), new_pos_sym='.', direction=-2
+new_pos=(64, 65), new_pos_sym='.', direction=-2
+new_pos=(65, 65), new_pos_sym='.', direction=-2
+new_pos=(66, 65), new_pos_sym='.', direction=-2
+new_pos=(67, 65), new_pos_sym='.', direction=-2
+new_pos=(68, 65), new_pos_sym='.', direction=-2
+new_pos=(69, 65), new_pos_sym='-', direction=-2
+new_pos=(69, 64), new_pos_sym='.', direction=-1
+new_pos=(69, 63), new_pos_sym='.', direction=-1
+new_pos=(69, 62), new_pos_sym='.', direction=-1
+new_pos=(69, 61), new_pos_sym='.', direction=-1
+new_pos=(69, 60), new_pos_sym='/', direction=-1
+new_pos=(70, 60), new_pos_sym='.', direction=-2
+new_pos=(71, 60), new_pos_sym='.', direction=-2
+new_pos=(72, 60), new_pos_sym='.', direction=-2
+new_pos=(73, 60), new_pos_sym='.', direction=-2
+new_pos=(74, 60), new_pos_sym='|', direction=-2
+new_pos=(75, 60), new_pos_sym='.', direction=-2
+new_pos=(76, 60), new_pos_sym='.', direction=-2
+new_pos=(77, 60), new_pos_sym='.', direction=-2
+new_pos=(78, 60), new_pos_sym='.', direction=-2
+new_pos=(79, 60), new_pos_sym='.', direction=-2
+new_pos=(80, 60), new_pos_sym='.', direction=-2
+new_pos=(81, 60), new_pos_sym='.', direction=-2
+new_pos=(82, 60), new_pos_sym='.', direction=-2
+new_pos=(83, 60), new_pos_sym='.', direction=-2
+new_pos=(84, 60), new_pos_sym='|', direction=-2
+new_pos=(85, 60), new_pos_sym='.', direction=-2
+new_pos=(86, 60), new_pos_sym='.', direction=-2
+new_pos=(87, 60), new_pos_sym='.', direction=-2
+new_pos=(88, 60), new_pos_sym='.', direction=-2
+new_pos=(89, 60), new_pos_sym='.', direction=-2
+new_pos=(90, 60), new_pos_sym='.', direction=-2
+new_pos=(91, 60), new_pos_sym='-', direction=-2
+new_pos=(91, 59), new_pos_sym='.', direction=-1
+new_pos=(91, 58), new_pos_sym='/', direction=-1
+new_pos=(92, 58), new_pos_sym='.', direction=-2
+new_pos=(93, 58), new_pos_sym='.', direction=-2
+new_pos=(94, 58), new_pos_sym='.', direction=-2
+new_pos=(95, 58), new_pos_sym='.', direction=-2
+new_pos=(96, 58), new_pos_sym='.', direction=-2
+new_pos=(97, 58), new_pos_sym='.', direction=-2
+new_pos=(98, 58), new_pos_sym='.', direction=-2
+new_pos=(99, 58), new_pos_sym='.', direction=-2
+new_pos=(100, 58), new_pos_sym='\\', direction=-2
+new_pos=(100, 59), new_pos_sym='.', direction=1
+new_pos=(100, 60), new_pos_sym='.', direction=1
+new_pos=(100, 61), new_pos_sym='.', direction=1
+new_pos=(100, 62), new_pos_sym='.', direction=1
+new_pos=(100, 63), new_pos_sym='.', direction=1
+new_pos=(100, 64), new_pos_sym='.', direction=1
+new_pos=(100, 65), new_pos_sym='.', direction=1
+new_pos=(100, 66), new_pos_sym='.', direction=1
+new_pos=(100, 67), new_pos_sym='/', direction=1
+new_pos=(99, 67), new_pos_sym='.', direction=2
+new_pos=(98, 67), new_pos_sym='.', direction=2
+new_pos=(97, 67), new_pos_sym='|', direction=2
+new_pos=(96, 67), new_pos_sym='.', direction=2
+new_pos=(95, 67), new_pos_sym='.', direction=2
+new_pos=(94, 67), new_pos_sym='.', direction=2
+new_pos=(93, 67), new_pos_sym='.', direction=2
+new_pos=(92, 67), new_pos_sym='.', direction=2
+new_pos=(91, 67), new_pos_sym='.', direction=2
+new_pos=(90, 67), new_pos_sym='.', direction=2
+new_pos=(89, 67), new_pos_sym='.', direction=2
+new_pos=(88, 67), new_pos_sym='.', direction=2
+new_pos=(87, 67), new_pos_sym='.', direction=2
+new_pos=(86, 67), new_pos_sym='-', direction=2
+new_pos=(86, 66), new_pos_sym='|', direction=-1
+new_pos=(85, 66), new_pos_sym='.', direction=2
+new_pos=(84, 66), new_pos_sym='.', direction=2
+new_pos=(83, 66), new_pos_sym='.', direction=2
+new_pos=(82, 66), new_pos_sym='.', direction=2
+new_pos=(81, 66), new_pos_sym='.', direction=2
+new_pos=(80, 66), new_pos_sym='.', direction=2
+new_pos=(79, 66), new_pos_sym='.', direction=2
+new_pos=(78, 66), new_pos_sym='.', direction=2
+new_pos=(77, 66), new_pos_sym='.', direction=2
+new_pos=(76, 66), new_pos_sym='.', direction=2
+new_pos=(75, 66), new_pos_sym='.', direction=2
+new_pos=(74, 66), new_pos_sym='.', direction=2
+new_pos=(73, 66), new_pos_sym='.', direction=2
+new_pos=(72, 66), new_pos_sym='.', direction=2
+new_pos=(71, 66), new_pos_sym='.', direction=2
+new_pos=(70, 66), new_pos_sym='.', direction=2
+new_pos=(69, 66), new_pos_sym='.', direction=2
+new_pos=(68, 66), new_pos_sym='.', direction=2
+new_pos=(67, 66), new_pos_sym='.', direction=2
+new_pos=(66, 66), new_pos_sym='.', direction=2
+new_pos=(65, 66), new_pos_sym='.', direction=2
+new_pos=(64, 66), new_pos_sym='.', direction=2
+new_pos=(63, 66), new_pos_sym='.', direction=2
+new_pos=(62, 66), new_pos_sym='.', direction=2
+new_pos=(61, 66), new_pos_sym='.', direction=2
+new_pos=(60, 66), new_pos_sym='.', direction=2
+new_pos=(59, 66), new_pos_sym='.', direction=2
+new_pos=(58, 66), new_pos_sym='.', direction=2
+new_pos=(57, 66), new_pos_sym='.', direction=2
+new_pos=(56, 66), new_pos_sym='.', direction=2
+new_pos=(55, 66), new_pos_sym='.', direction=2
+new_pos=(54, 66), new_pos_sym='|', direction=2
+new_pos=(53, 66), new_pos_sym='.', direction=2
+new_pos=(52, 66), new_pos_sym='.', direction=2
+new_pos=(51, 66), new_pos_sym='.', direction=2
+new_pos=(50, 66), new_pos_sym='.', direction=2
+new_pos=(49, 66), new_pos_sym='.', direction=2
+new_pos=(48, 66), new_pos_sym='.', direction=2
+new_pos=(47, 66), new_pos_sym='-', direction=2
+new_pos=(47, 65), new_pos_sym='.', direction=-1
+new_pos=(47, 64), new_pos_sym='.', direction=-1
+new_pos=(47, 63), new_pos_sym='.', direction=-1
+new_pos=(47, 62), new_pos_sym='.', direction=-1
+new_pos=(47, 61), new_pos_sym='-', direction=-1
+new_pos=(47, 67), new_pos_sym='.', direction=1
+new_pos=(47, 68), new_pos_sym='.', direction=1
+new_pos=(47, 69), new_pos_sym='.', direction=1
+new_pos=(47, 70), new_pos_sym='.', direction=1
+new_pos=(47, 71), new_pos_sym='.', direction=1
+new_pos=(47, 72), new_pos_sym='.', direction=1
+new_pos=(47, 73), new_pos_sym='|', direction=1
+new_pos=(46, 73), new_pos_sym='.', direction=2
+new_pos=(45, 73), new_pos_sym='.', direction=2
+new_pos=(44, 73), new_pos_sym='.', direction=2
+new_pos=(43, 73), new_pos_sym='.', direction=2
+new_pos=(42, 73), new_pos_sym='.', direction=2
+new_pos=(41, 73), new_pos_sym='.', direction=2
+new_pos=(40, 73), new_pos_sym='.', direction=2
+new_pos=(39, 73), new_pos_sym='.', direction=2
+new_pos=(38, 73), new_pos_sym='.', direction=2
+new_pos=(37, 73), new_pos_sym='.', direction=2
+new_pos=(36, 73), new_pos_sym='.', direction=2
+new_pos=(35, 73), new_pos_sym='.', direction=2
+new_pos=(34, 73), new_pos_sym='.', direction=2
+new_pos=(33, 73), new_pos_sym='.', direction=2
+new_pos=(32, 73), new_pos_sym='.', direction=2
+new_pos=(31, 73), new_pos_sym='\\', direction=2
+new_pos=(31, 72), new_pos_sym='.', direction=-1
+new_pos=(31, 71), new_pos_sym='.', direction=-1
+new_pos=(31, 70), new_pos_sym='.', direction=-1
+new_pos=(31, 69), new_pos_sym='.', direction=-1
+new_pos=(31, 68), new_pos_sym='.', direction=-1
+new_pos=(31, 67), new_pos_sym='.', direction=-1
+new_pos=(31, 66), new_pos_sym='.', direction=-1
+new_pos=(31, 65), new_pos_sym='.', direction=-1
+new_pos=(31, 64), new_pos_sym='.', direction=-1
+new_pos=(31, 63), new_pos_sym='.', direction=-1
+new_pos=(31, 62), new_pos_sym='.', direction=-1
+new_pos=(31, 61), new_pos_sym='.', direction=-1
+new_pos=(31, 60), new_pos_sym='.', direction=-1
+new_pos=(31, 59), new_pos_sym='-', direction=-1
+new_pos=(31, 58), new_pos_sym='.', direction=-1
+new_pos=(31, 57), new_pos_sym='.', direction=-1
+new_pos=(31, 56), new_pos_sym='.', direction=-1
+new_pos=(31, 55), new_pos_sym='.', direction=-1
+new_pos=(31, 54), new_pos_sym='.', direction=-1
+new_pos=(31, 53), new_pos_sym='.', direction=-1
+new_pos=(31, 52), new_pos_sym='.', direction=-1
+new_pos=(31, 51), new_pos_sym='.', direction=-1
+new_pos=(31, 50), new_pos_sym='.', direction=-1
+new_pos=(31, 49), new_pos_sym='.', direction=-1
+new_pos=(31, 48), new_pos_sym='.', direction=-1
+new_pos=(31, 47), new_pos_sym='.', direction=-1
+new_pos=(31, 46), new_pos_sym='.', direction=-1
+new_pos=(31, 45), new_pos_sym='.', direction=-1
+new_pos=(31, 44), new_pos_sym='.', direction=-1
+new_pos=(31, 43), new_pos_sym='.', direction=-1
+new_pos=(31, 42), new_pos_sym='.', direction=-1
+new_pos=(31, 41), new_pos_sym='.', direction=-1
+new_pos=(31, 40), new_pos_sym='.', direction=-1
+new_pos=(31, 39), new_pos_sym='.', direction=-1
+new_pos=(31, 38), new_pos_sym='.', direction=-1
+new_pos=(31, 37), new_pos_sym='.', direction=-1
+new_pos=(31, 36), new_pos_sym='.', direction=-1
+new_pos=(31, 35), new_pos_sym='.', direction=-1
+new_pos=(31, 34), new_pos_sym='.', direction=-1
+new_pos=(31, 33), new_pos_sym='.', direction=-1
+new_pos=(31, 32), new_pos_sym='.', direction=-1
+new_pos=(31, 31), new_pos_sym='.', direction=-1
+new_pos=(31, 30), new_pos_sym='.', direction=-1
+new_pos=(31, 29), new_pos_sym='|', direction=-1
+new_pos=(30, 29), new_pos_sym='.', direction=2
+new_pos=(29, 29), new_pos_sym='.', direction=2
+new_pos=(28, 29), new_pos_sym='/', direction=2
+new_pos=(28, 30), new_pos_sym='/', direction=1
+new_pos=(27, 30), new_pos_sym='.', direction=2
+new_pos=(26, 30), new_pos_sym='.', direction=2
+new_pos=(25, 30), new_pos_sym='/', direction=2
+new_pos=(25, 31), new_pos_sym='.', direction=1
+new_pos=(25, 32), new_pos_sym='.', direction=1
+new_pos=(25, 33), new_pos_sym='.', direction=1
+new_pos=(25, 34), new_pos_sym='.', direction=1
+new_pos=(25, 35), new_pos_sym='.', direction=1
+new_pos=(25, 36), new_pos_sym='.', direction=1
+new_pos=(25, 37), new_pos_sym='-', direction=1
+new_pos=(25, 38), new_pos_sym='|', direction=1
+new_pos=(24, 38), new_pos_sym='.', direction=2
+new_pos=(23, 38), new_pos_sym='.', direction=2
+new_pos=(22, 38), new_pos_sym='.', direction=2
+new_pos=(21, 38), new_pos_sym='.', direction=2
+new_pos=(20, 38), new_pos_sym='.', direction=2
+new_pos=(19, 38), new_pos_sym='/', direction=2
+new_pos=(19, 39), new_pos_sym='.', direction=1
+new_pos=(19, 40), new_pos_sym='.', direction=1
+new_pos=(19, 41), new_pos_sym='.', direction=1
+new_pos=(19, 42), new_pos_sym='-', direction=1
+new_pos=(19, 43), new_pos_sym='.', direction=1
+new_pos=(19, 44), new_pos_sym='.', direction=1
+new_pos=(19, 45), new_pos_sym='.', direction=1
+new_pos=(19, 46), new_pos_sym='.', direction=1
+new_pos=(19, 47), new_pos_sym='.', direction=1
+new_pos=(19, 48), new_pos_sym='.', direction=1
+new_pos=(19, 49), new_pos_sym='.', direction=1
+new_pos=(19, 50), new_pos_sym='.', direction=1
+new_pos=(19, 51), new_pos_sym='.', direction=1
+new_pos=(19, 52), new_pos_sym='.', direction=1
+new_pos=(19, 53), new_pos_sym='.', direction=1
+new_pos=(19, 54), new_pos_sym='.', direction=1
+new_pos=(19, 55), new_pos_sym='.', direction=1
+new_pos=(19, 56), new_pos_sym='\\', direction=1
+new_pos=(20, 56), new_pos_sym='.', direction=-2
+new_pos=(21, 56), new_pos_sym='.', direction=-2
+new_pos=(22, 56), new_pos_sym='.', direction=-2
+new_pos=(23, 56), new_pos_sym='.', direction=-2
+new_pos=(24, 56), new_pos_sym='.', direction=-2
+new_pos=(25, 56), new_pos_sym='.', direction=-2
+new_pos=(26, 56), new_pos_sym='.', direction=-2
+new_pos=(27, 56), new_pos_sym='.', direction=-2
+new_pos=(28, 56), new_pos_sym='.', direction=-2
+new_pos=(29, 56), new_pos_sym='.', direction=-2
+new_pos=(30, 56), new_pos_sym='.', direction=-2
+new_pos=(31, 56), new_pos_sym='.', direction=-2
+new_pos=(32, 56), new_pos_sym='.', direction=-2
+new_pos=(33, 56), new_pos_sym='.', direction=-2
+new_pos=(34, 56), new_pos_sym='.', direction=-2
+new_pos=(35, 56), new_pos_sym='.', direction=-2
+new_pos=(36, 56), new_pos_sym='.', direction=-2
+new_pos=(37, 56), new_pos_sym='.', direction=-2
+new_pos=(38, 56), new_pos_sym='.', direction=-2
+new_pos=(39, 56), new_pos_sym='.', direction=-2
+new_pos=(40, 56), new_pos_sym='.', direction=-2
+new_pos=(41, 56), new_pos_sym='.', direction=-2
+new_pos=(42, 56), new_pos_sym='.', direction=-2
+new_pos=(43, 56), new_pos_sym='.', direction=-2
+new_pos=(44, 56), new_pos_sym='.', direction=-2
+new_pos=(45, 56), new_pos_sym='.', direction=-2
+new_pos=(46, 56), new_pos_sym='.', direction=-2
+new_pos=(47, 56), new_pos_sym='.', direction=-2
+new_pos=(48, 56), new_pos_sym='.', direction=-2
+new_pos=(49, 56), new_pos_sym='.', direction=-2
+new_pos=(50, 56), new_pos_sym='.', direction=-2
+new_pos=(51, 56), new_pos_sym='.', direction=-2
+new_pos=(52, 56), new_pos_sym='.', direction=-2
+new_pos=(53, 56), new_pos_sym='.', direction=-2
+new_pos=(54, 56), new_pos_sym='.', direction=-2
+new_pos=(55, 56), new_pos_sym='.', direction=-2
+new_pos=(56, 56), new_pos_sym='.', direction=-2
+new_pos=(57, 56), new_pos_sym='-', direction=-2
+new_pos=(57, 55), new_pos_sym='.', direction=-1
+new_pos=(57, 54), new_pos_sym='.', direction=-1
+new_pos=(57, 53), new_pos_sym='.', direction=-1
+new_pos=(57, 52), new_pos_sym='.', direction=-1
+new_pos=(57, 51), new_pos_sym='.', direction=-1
+new_pos=(57, 50), new_pos_sym='.', direction=-1
+new_pos=(57, 49), new_pos_sym='.', direction=-1
+new_pos=(57, 48), new_pos_sym='/', direction=-1
+new_pos=(58, 48), new_pos_sym='.', direction=-2
+new_pos=(59, 48), new_pos_sym='.', direction=-2
+new_pos=(60, 48), new_pos_sym='.', direction=-2
+new_pos=(61, 48), new_pos_sym='.', direction=-2
+new_pos=(62, 48), new_pos_sym='/', direction=-2
+new_pos=(62, 47), new_pos_sym='/', direction=-1
+new_pos=(63, 47), new_pos_sym='.', direction=-2
+new_pos=(64, 47), new_pos_sym='.', direction=-2
+new_pos=(65, 47), new_pos_sym='.', direction=-2
+new_pos=(66, 47), new_pos_sym='|', direction=-2
+new_pos=(67, 47), new_pos_sym='.', direction=-2
+new_pos=(68, 47), new_pos_sym='.', direction=-2
+new_pos=(69, 47), new_pos_sym='.', direction=-2
+new_pos=(70, 47), new_pos_sym='.', direction=-2
+new_pos=(71, 47), new_pos_sym='\\', direction=-2
+new_pos=(71, 48), new_pos_sym='.', direction=1
+new_pos=(71, 49), new_pos_sym='.', direction=1
+new_pos=(71, 50), new_pos_sym='.', direction=1
+new_pos=(71, 51), new_pos_sym='.', direction=1
+new_pos=(71, 52), new_pos_sym='.', direction=1
+new_pos=(71, 53), new_pos_sym='.', direction=1
+new_pos=(71, 54), new_pos_sym='.', direction=1
+new_pos=(71, 55), new_pos_sym='.', direction=1
+new_pos=(71, 56), new_pos_sym='.', direction=1
+new_pos=(71, 57), new_pos_sym='.', direction=1
+new_pos=(71, 58), new_pos_sym='.', direction=1
+new_pos=(71, 59), new_pos_sym='.', direction=1
+new_pos=(71, 60), new_pos_sym='.', direction=1
+new_pos=(71, 61), new_pos_sym='.', direction=1
+new_pos=(71, 62), new_pos_sym='.', direction=1
+new_pos=(71, 63), new_pos_sym='.', direction=1
+new_pos=(71, 64), new_pos_sym='.', direction=1
+new_pos=(71, 65), new_pos_sym='.', direction=1
+new_pos=(71, 66), new_pos_sym='.', direction=1
+new_pos=(71, 67), new_pos_sym='.', direction=1
+new_pos=(71, 68), new_pos_sym='.', direction=1
+new_pos=(71, 69), new_pos_sym='.', direction=1
+new_pos=(71, 70), new_pos_sym='.', direction=1
+new_pos=(71, 71), new_pos_sym='.', direction=1
+new_pos=(71, 72), new_pos_sym='.', direction=1
+new_pos=(71, 73), new_pos_sym='.', direction=1
+new_pos=(71, 74), new_pos_sym='.', direction=1
+new_pos=(71, 75), new_pos_sym='.', direction=1
+new_pos=(71, 76), new_pos_sym='.', direction=1
+new_pos=(71, 77), new_pos_sym='.', direction=1
+new_pos=(71, 78), new_pos_sym='.', direction=1
+new_pos=(71, 79), new_pos_sym='.', direction=1
+new_pos=(71, 80), new_pos_sym='.', direction=1
+new_pos=(71, 81), new_pos_sym='.', direction=1
+new_pos=(71, 82), new_pos_sym='.', direction=1
+new_pos=(71, 83), new_pos_sym='.', direction=1
+new_pos=(71, 84), new_pos_sym='\\', direction=1
+new_pos=(72, 84), new_pos_sym='.', direction=-2
+new_pos=(73, 84), new_pos_sym='.', direction=-2
+new_pos=(74, 84), new_pos_sym='.', direction=-2
+new_pos=(75, 84), new_pos_sym='.', direction=-2
+new_pos=(76, 84), new_pos_sym='.', direction=-2
+new_pos=(77, 84), new_pos_sym='.', direction=-2
+new_pos=(78, 84), new_pos_sym='.', direction=-2
+new_pos=(79, 84), new_pos_sym='.', direction=-2
+new_pos=(80, 84), new_pos_sym='.', direction=-2
+new_pos=(81, 84), new_pos_sym='.', direction=-2
+new_pos=(82, 84), new_pos_sym='.', direction=-2
+new_pos=(83, 84), new_pos_sym='.', direction=-2
+new_pos=(84, 84), new_pos_sym='.', direction=-2
+new_pos=(85, 84), new_pos_sym='.', direction=-2
+new_pos=(86, 84), new_pos_sym='.', direction=-2
+new_pos=(87, 84), new_pos_sym='.', direction=-2
+new_pos=(88, 84), new_pos_sym='.', direction=-2
+new_pos=(89, 84), new_pos_sym='.', direction=-2
+new_pos=(90, 84), new_pos_sym='.', direction=-2
+new_pos=(91, 84), new_pos_sym='.', direction=-2
+new_pos=(92, 84), new_pos_sym='.', direction=-2
+new_pos=(93, 84), new_pos_sym='.', direction=-2
+new_pos=(94, 84), new_pos_sym='.', direction=-2
+new_pos=(95, 84), new_pos_sym='.', direction=-2
+new_pos=(96, 84), new_pos_sym='.', direction=-2
+new_pos=(97, 84), new_pos_sym='.', direction=-2
+new_pos=(98, 84), new_pos_sym='.', direction=-2
+new_pos=(99, 84), new_pos_sym='.', direction=-2
+new_pos=(100, 84), new_pos_sym='.', direction=-2
+new_pos=(101, 84), new_pos_sym='/', direction=-2
+new_pos=(101, 83), new_pos_sym='.', direction=-1
+new_pos=(101, 82), new_pos_sym='.', direction=-1
+new_pos=(101, 81), new_pos_sym='.', direction=-1
+new_pos=(101, 80), new_pos_sym='.', direction=-1
+new_pos=(101, 79), new_pos_sym='.', direction=-1
+new_pos=(101, 78), new_pos_sym='.', direction=-1
+new_pos=(101, 77), new_pos_sym='.', direction=-1
+new_pos=(101, 76), new_pos_sym='|', direction=-1
+new_pos=(100, 76), new_pos_sym='-', direction=2
+new_pos=(100, 75), new_pos_sym='.', direction=-1
+new_pos=(100, 74), new_pos_sym='.', direction=-1
+new_pos=(100, 73), new_pos_sym='.', direction=-1
+new_pos=(100, 72), new_pos_sym='.', direction=-1
+new_pos=(100, 71), new_pos_sym='.', direction=-1
+new_pos=(100, 70), new_pos_sym='.', direction=-1
+new_pos=(100, 69), new_pos_sym='.', direction=-1
+new_pos=(100, 68), new_pos_sym='.', direction=-1
+new_pos=(100, 67), new_pos_sym='/', direction=-1
+new_pos=(101, 67), new_pos_sym='.', direction=-2
+new_pos=(102, 67), new_pos_sym='.', direction=-2
+new_pos=(103, 67), new_pos_sym='.', direction=-2
+new_pos=(104, 67), new_pos_sym='.', direction=-2
+new_pos=(105, 67), new_pos_sym='.', direction=-2
+new_pos=(106, 67), new_pos_sym='.', direction=-2
+new_pos=(107, 67), new_pos_sym='.', direction=-2
+new_pos=(108, 67), new_pos_sym='.', direction=-2
+new_pos=(109, 67), new_pos_sym='.', direction=-2
+one beam left the map
+new_pos=(100, 77), new_pos_sym='/', direction=1
+new_pos=(99, 77), new_pos_sym='.', direction=2
+new_pos=(98, 77), new_pos_sym='.', direction=2
+new_pos=(97, 77), new_pos_sym='.', direction=2
+new_pos=(96, 77), new_pos_sym='.', direction=2
+new_pos=(95, 77), new_pos_sym='.', direction=2
+new_pos=(94, 77), new_pos_sym='.', direction=2
+new_pos=(93, 77), new_pos_sym='|', direction=2
+new_pos=(92, 77), new_pos_sym='.', direction=2
+new_pos=(91, 77), new_pos_sym='.', direction=2
+new_pos=(90, 77), new_pos_sym='.', direction=2
+new_pos=(89, 77), new_pos_sym='.', direction=2
+new_pos=(88, 77), new_pos_sym='.', direction=2
+new_pos=(87, 77), new_pos_sym='.', direction=2
+new_pos=(86, 77), new_pos_sym='.', direction=2
+new_pos=(85, 77), new_pos_sym='.', direction=2
+new_pos=(84, 77), new_pos_sym='.', direction=2
+new_pos=(83, 77), new_pos_sym='.', direction=2
+new_pos=(82, 77), new_pos_sym='.', direction=2
+new_pos=(81, 77), new_pos_sym='.', direction=2
+new_pos=(80, 77), new_pos_sym='.', direction=2
+new_pos=(79, 77), new_pos_sym='\\', direction=2
+new_pos=(79, 76), new_pos_sym='.', direction=-1
+new_pos=(79, 75), new_pos_sym='.', direction=-1
+new_pos=(79, 74), new_pos_sym='.', direction=-1
+new_pos=(79, 73), new_pos_sym='.', direction=-1
+new_pos=(79, 72), new_pos_sym='.', direction=-1
+new_pos=(79, 71), new_pos_sym='/', direction=-1
+new_pos=(80, 71), new_pos_sym='\\', direction=-2
+new_pos=(80, 72), new_pos_sym='.', direction=1
+new_pos=(80, 73), new_pos_sym='.', direction=1
+new_pos=(80, 74), new_pos_sym='.', direction=1
+new_pos=(80, 75), new_pos_sym='.', direction=1
+new_pos=(80, 76), new_pos_sym='.', direction=1
+new_pos=(80, 77), new_pos_sym='.', direction=1
+new_pos=(80, 78), new_pos_sym='.', direction=1
+new_pos=(80, 79), new_pos_sym='.', direction=1
+new_pos=(80, 80), new_pos_sym='.', direction=1
+new_pos=(80, 81), new_pos_sym='.', direction=1
+new_pos=(80, 82), new_pos_sym='/', direction=1
+new_pos=(79, 82), new_pos_sym='.', direction=2
+new_pos=(78, 82), new_pos_sym='.', direction=2
+new_pos=(77, 82), new_pos_sym='.', direction=2
+new_pos=(76, 82), new_pos_sym='.', direction=2
+new_pos=(75, 82), new_pos_sym='/', direction=2
+new_pos=(75, 83), new_pos_sym='.', direction=1
+new_pos=(75, 84), new_pos_sym='.', direction=1
+new_pos=(75, 85), new_pos_sym='.', direction=1
+new_pos=(75, 86), new_pos_sym='.', direction=1
+new_pos=(75, 87), new_pos_sym='/', direction=1
+new_pos=(74, 87), new_pos_sym='.', direction=2
+new_pos=(73, 87), new_pos_sym='.', direction=2
+new_pos=(72, 87), new_pos_sym='.', direction=2
+new_pos=(71, 87), new_pos_sym='.', direction=2
+new_pos=(70, 87), new_pos_sym='.', direction=2
+new_pos=(69, 87), new_pos_sym='.', direction=2
+new_pos=(68, 87), new_pos_sym='.', direction=2
+new_pos=(67, 87), new_pos_sym='.', direction=2
+new_pos=(66, 87), new_pos_sym='.', direction=2
+new_pos=(65, 87), new_pos_sym='.', direction=2
+new_pos=(64, 87), new_pos_sym='.', direction=2
+new_pos=(63, 87), new_pos_sym='.', direction=2
+new_pos=(62, 87), new_pos_sym='|', direction=2
+new_pos=(61, 87), new_pos_sym='.', direction=2
+new_pos=(60, 87), new_pos_sym='.', direction=2
+new_pos=(59, 87), new_pos_sym='.', direction=2
+new_pos=(58, 87), new_pos_sym='.', direction=2
+new_pos=(57, 87), new_pos_sym='.', direction=2
+new_pos=(56, 87), new_pos_sym='.', direction=2
+new_pos=(55, 87), new_pos_sym='.', direction=2
+new_pos=(54, 87), new_pos_sym='.', direction=2
+new_pos=(53, 87), new_pos_sym='.', direction=2
+new_pos=(52, 87), new_pos_sym='.', direction=2
+new_pos=(51, 87), new_pos_sym='.', direction=2
+new_pos=(50, 87), new_pos_sym='-', direction=2
+new_pos=(50, 86), new_pos_sym='.', direction=-1
+new_pos=(50, 85), new_pos_sym='.', direction=-1
+new_pos=(50, 84), new_pos_sym='.', direction=-1
+new_pos=(50, 83), new_pos_sym='.', direction=-1
+new_pos=(50, 82), new_pos_sym='.', direction=-1
+new_pos=(50, 81), new_pos_sym='.', direction=-1
+new_pos=(50, 80), new_pos_sym='.', direction=-1
+new_pos=(50, 79), new_pos_sym='.', direction=-1
+new_pos=(50, 78), new_pos_sym='.', direction=-1
+new_pos=(50, 77), new_pos_sym='.', direction=-1
+new_pos=(50, 76), new_pos_sym='.', direction=-1
+new_pos=(50, 75), new_pos_sym='.', direction=-1
+new_pos=(50, 74), new_pos_sym='.', direction=-1
+new_pos=(50, 73), new_pos_sym='.', direction=-1
+new_pos=(50, 72), new_pos_sym='.', direction=-1
+new_pos=(50, 71), new_pos_sym='|', direction=-1
+new_pos=(49, 71), new_pos_sym='.', direction=2
+new_pos=(48, 71), new_pos_sym='.', direction=2
+new_pos=(47, 71), new_pos_sym='.', direction=2
+new_pos=(46, 71), new_pos_sym='|', direction=2
+new_pos=(45, 71), new_pos_sym='\\', direction=2
+new_pos=(45, 70), new_pos_sym='.', direction=-1
+new_pos=(45, 69), new_pos_sym='.', direction=-1
+new_pos=(45, 68), new_pos_sym='.', direction=-1
+new_pos=(45, 67), new_pos_sym='.', direction=-1
+new_pos=(45, 66), new_pos_sym='.', direction=-1
+new_pos=(45, 65), new_pos_sym='.', direction=-1
+new_pos=(45, 64), new_pos_sym='.', direction=-1
+new_pos=(45, 63), new_pos_sym='.', direction=-1
+new_pos=(45, 62), new_pos_sym='.', direction=-1
+new_pos=(45, 61), new_pos_sym='|', direction=-1
+new_pos=(44, 61), new_pos_sym='.', direction=2
+new_pos=(43, 61), new_pos_sym='.', direction=2
+new_pos=(42, 61), new_pos_sym='.', direction=2
+new_pos=(41, 61), new_pos_sym='.', direction=2
+new_pos=(40, 61), new_pos_sym='.', direction=2
+new_pos=(39, 61), new_pos_sym='.', direction=2
+new_pos=(38, 61), new_pos_sym='.', direction=2
+new_pos=(37, 61), new_pos_sym='.', direction=2
+new_pos=(36, 61), new_pos_sym='.', direction=2
+new_pos=(35, 61), new_pos_sym='.', direction=2
+new_pos=(34, 61), new_pos_sym='.', direction=2
+new_pos=(33, 61), new_pos_sym='.', direction=2
+new_pos=(32, 61), new_pos_sym='.', direction=2
+new_pos=(31, 61), new_pos_sym='.', direction=2
+new_pos=(30, 61), new_pos_sym='.', direction=2
+new_pos=(29, 61), new_pos_sym='.', direction=2
+new_pos=(28, 61), new_pos_sym='.', direction=2
+new_pos=(27, 61), new_pos_sym='.', direction=2
+new_pos=(26, 61), new_pos_sym='.', direction=2
+new_pos=(25, 61), new_pos_sym='/', direction=2
+new_pos=(25, 62), new_pos_sym='.', direction=1
+new_pos=(25, 63), new_pos_sym='-', direction=1
+new_pos=(25, 64), new_pos_sym='.', direction=1
+new_pos=(25, 65), new_pos_sym='.', direction=1
+new_pos=(25, 66), new_pos_sym='.', direction=1
+new_pos=(25, 67), new_pos_sym='.', direction=1
+new_pos=(25, 68), new_pos_sym='.', direction=1
+new_pos=(25, 69), new_pos_sym='.', direction=1
+new_pos=(25, 70), new_pos_sym='.', direction=1
+new_pos=(25, 71), new_pos_sym='.', direction=1
+new_pos=(25, 72), new_pos_sym='.', direction=1
+new_pos=(25, 73), new_pos_sym='.', direction=1
+new_pos=(25, 74), new_pos_sym='.', direction=1
+new_pos=(25, 75), new_pos_sym='.', direction=1
+new_pos=(25, 76), new_pos_sym='.', direction=1
+new_pos=(25, 77), new_pos_sym='.', direction=1
+new_pos=(25, 78), new_pos_sym='.', direction=1
+new_pos=(25, 79), new_pos_sym='\\', direction=1
+new_pos=(26, 79), new_pos_sym='.', direction=-2
+new_pos=(27, 79), new_pos_sym='.', direction=-2
+new_pos=(28, 79), new_pos_sym='.', direction=-2
+new_pos=(29, 79), new_pos_sym='.', direction=-2
+new_pos=(30, 79), new_pos_sym='.', direction=-2
+new_pos=(31, 79), new_pos_sym='.', direction=-2
+new_pos=(32, 79), new_pos_sym='.', direction=-2
+new_pos=(33, 79), new_pos_sym='.', direction=-2
+new_pos=(34, 79), new_pos_sym='.', direction=-2
+new_pos=(35, 79), new_pos_sym='.', direction=-2
+new_pos=(36, 79), new_pos_sym='.', direction=-2
+new_pos=(37, 79), new_pos_sym='.', direction=-2
+new_pos=(38, 79), new_pos_sym='.', direction=-2
+new_pos=(39, 79), new_pos_sym='.', direction=-2
+new_pos=(40, 79), new_pos_sym='/', direction=-2
+new_pos=(40, 78), new_pos_sym='.', direction=-1
+new_pos=(40, 77), new_pos_sym='.', direction=-1
+new_pos=(40, 76), new_pos_sym='.', direction=-1
+new_pos=(40, 75), new_pos_sym='.', direction=-1
+new_pos=(40, 74), new_pos_sym='.', direction=-1
+new_pos=(40, 73), new_pos_sym='.', direction=-1
+new_pos=(40, 72), new_pos_sym='.', direction=-1
+new_pos=(40, 71), new_pos_sym='\\', direction=-1
+new_pos=(39, 71), new_pos_sym='.', direction=2
+new_pos=(38, 71), new_pos_sym='.', direction=2
+new_pos=(37, 71), new_pos_sym='.', direction=2
+new_pos=(36, 71), new_pos_sym='.', direction=2
+new_pos=(35, 71), new_pos_sym='.', direction=2
+new_pos=(34, 71), new_pos_sym='.', direction=2
+new_pos=(33, 71), new_pos_sym='.', direction=2
+new_pos=(32, 71), new_pos_sym='.', direction=2
+new_pos=(31, 71), new_pos_sym='.', direction=2
+new_pos=(30, 71), new_pos_sym='.', direction=2
+new_pos=(29, 71), new_pos_sym='.', direction=2
+new_pos=(28, 71), new_pos_sym='.', direction=2
+new_pos=(27, 71), new_pos_sym='.', direction=2
+new_pos=(26, 71), new_pos_sym='|', direction=2
+new_pos=(25, 71), new_pos_sym='.', direction=2
+new_pos=(24, 71), new_pos_sym='.', direction=2
+new_pos=(23, 71), new_pos_sym='.', direction=2
+new_pos=(22, 71), new_pos_sym='.', direction=2
+new_pos=(21, 71), new_pos_sym='.', direction=2
+new_pos=(20, 71), new_pos_sym='.', direction=2
+new_pos=(19, 71), new_pos_sym='.', direction=2
+new_pos=(18, 71), new_pos_sym='.', direction=2
+new_pos=(17, 71), new_pos_sym='.', direction=2
+new_pos=(16, 71), new_pos_sym='.', direction=2
+new_pos=(15, 71), new_pos_sym='.', direction=2
+new_pos=(14, 71), new_pos_sym='.', direction=2
+new_pos=(13, 71), new_pos_sym='.', direction=2
+new_pos=(12, 71), new_pos_sym='.', direction=2
+new_pos=(11, 71), new_pos_sym='.', direction=2
+new_pos=(10, 71), new_pos_sym='.', direction=2
+new_pos=(9, 71), new_pos_sym='|', direction=2
+new_pos=(51, 71), new_pos_sym='.', direction=-2
+new_pos=(52, 71), new_pos_sym='/', direction=-2
+new_pos=(52, 70), new_pos_sym='.', direction=-1
+new_pos=(52, 69), new_pos_sym='.', direction=-1
+new_pos=(52, 68), new_pos_sym='.', direction=-1
+new_pos=(52, 67), new_pos_sym='.', direction=-1
+new_pos=(52, 66), new_pos_sym='.', direction=-1
+new_pos=(52, 65), new_pos_sym='.', direction=-1
+new_pos=(52, 64), new_pos_sym='.', direction=-1
+new_pos=(52, 63), new_pos_sym='.', direction=-1
+new_pos=(52, 62), new_pos_sym='.', direction=-1
+new_pos=(52, 61), new_pos_sym='|', direction=-1
+new_pos=(51, 61), new_pos_sym='.', direction=2
+new_pos=(50, 61), new_pos_sym='.', direction=2
+new_pos=(49, 61), new_pos_sym='.', direction=2
+new_pos=(48, 61), new_pos_sym='/', direction=2
+new_pos=(48, 62), new_pos_sym='.', direction=1
+new_pos=(48, 63), new_pos_sym='.', direction=1
+new_pos=(48, 64), new_pos_sym='.', direction=1
+new_pos=(48, 65), new_pos_sym='.', direction=1
+new_pos=(48, 66), new_pos_sym='.', direction=1
+new_pos=(48, 67), new_pos_sym='.', direction=1
+new_pos=(48, 68), new_pos_sym='.', direction=1
+new_pos=(48, 69), new_pos_sym='.', direction=1
+new_pos=(48, 70), new_pos_sym='.', direction=1
+new_pos=(48, 71), new_pos_sym='.', direction=1
+new_pos=(48, 72), new_pos_sym='.', direction=1
+new_pos=(48, 73), new_pos_sym='.', direction=1
+new_pos=(48, 74), new_pos_sym='.', direction=1
+new_pos=(48, 75), new_pos_sym='.', direction=1
+new_pos=(48, 76), new_pos_sym='.', direction=1
+new_pos=(48, 77), new_pos_sym='.', direction=1
+new_pos=(48, 78), new_pos_sym='.', direction=1
+new_pos=(48, 79), new_pos_sym='.', direction=1
+new_pos=(48, 80), new_pos_sym='.', direction=1
+new_pos=(48, 81), new_pos_sym='/', direction=1
+new_pos=(47, 81), new_pos_sym='.', direction=2
+new_pos=(46, 81), new_pos_sym='.', direction=2
+new_pos=(45, 81), new_pos_sym='.', direction=2
+new_pos=(44, 81), new_pos_sym='.', direction=2
+new_pos=(43, 81), new_pos_sym='.', direction=2
+new_pos=(42, 81), new_pos_sym='.', direction=2
+new_pos=(41, 81), new_pos_sym='.', direction=2
+new_pos=(40, 81), new_pos_sym='.', direction=2
+new_pos=(39, 81), new_pos_sym='.', direction=2
+new_pos=(38, 81), new_pos_sym='.', direction=2
+new_pos=(37, 81), new_pos_sym='.', direction=2
+new_pos=(36, 81), new_pos_sym='.', direction=2
+new_pos=(35, 81), new_pos_sym='.', direction=2
+new_pos=(34, 81), new_pos_sym='.', direction=2
+new_pos=(33, 81), new_pos_sym='.', direction=2
+new_pos=(32, 81), new_pos_sym='.', direction=2
+new_pos=(31, 81), new_pos_sym='/', direction=2
+new_pos=(31, 82), new_pos_sym='.', direction=1
+new_pos=(31, 83), new_pos_sym='.', direction=1
+new_pos=(31, 84), new_pos_sym='.', direction=1
+new_pos=(31, 85), new_pos_sym='.', direction=1
+new_pos=(31, 86), new_pos_sym='.', direction=1
+new_pos=(31, 87), new_pos_sym='.', direction=1
+new_pos=(31, 88), new_pos_sym='.', direction=1
+new_pos=(31, 89), new_pos_sym='|', direction=1
+new_pos=(30, 89), new_pos_sym='/', direction=2
+new_pos=(30, 90), new_pos_sym='.', direction=1
+new_pos=(30, 91), new_pos_sym='.', direction=1
+new_pos=(30, 92), new_pos_sym='.', direction=1
+new_pos=(30, 93), new_pos_sym='.', direction=1
+new_pos=(30, 94), new_pos_sym='.', direction=1
+new_pos=(30, 95), new_pos_sym='.', direction=1
+new_pos=(30, 96), new_pos_sym='.', direction=1
+new_pos=(30, 97), new_pos_sym='.', direction=1
+new_pos=(30, 98), new_pos_sym='.', direction=1
+new_pos=(30, 99), new_pos_sym='.', direction=1
+new_pos=(30, 100), new_pos_sym='.', direction=1
+new_pos=(30, 101), new_pos_sym='.', direction=1
+new_pos=(30, 102), new_pos_sym='.', direction=1
+new_pos=(30, 103), new_pos_sym='.', direction=1
+new_pos=(30, 104), new_pos_sym='.', direction=1
+new_pos=(30, 105), new_pos_sym='.', direction=1
+new_pos=(30, 106), new_pos_sym='.', direction=1
+new_pos=(30, 107), new_pos_sym='.', direction=1
+new_pos=(30, 108), new_pos_sym='.', direction=1
+new_pos=(30, 109), new_pos_sym='.', direction=1
+one beam left the map
+new_pos=(32, 89), new_pos_sym='.', direction=-2
+new_pos=(33, 89), new_pos_sym='.', direction=-2
+new_pos=(34, 89), new_pos_sym='.', direction=-2
+new_pos=(35, 89), new_pos_sym='.', direction=-2
+new_pos=(36, 89), new_pos_sym='.', direction=-2
+new_pos=(37, 89), new_pos_sym='.', direction=-2
+new_pos=(38, 89), new_pos_sym='.', direction=-2
+new_pos=(39, 89), new_pos_sym='.', direction=-2
+new_pos=(40, 89), new_pos_sym='.', direction=-2
+new_pos=(41, 89), new_pos_sym='.', direction=-2
+new_pos=(42, 89), new_pos_sym='.', direction=-2
+new_pos=(43, 89), new_pos_sym='.', direction=-2
+new_pos=(44, 89), new_pos_sym='\\', direction=-2
+new_pos=(44, 90), new_pos_sym='.', direction=1
+new_pos=(44, 91), new_pos_sym='.', direction=1
+new_pos=(44, 92), new_pos_sym='.', direction=1
+new_pos=(44, 93), new_pos_sym='.', direction=1
+new_pos=(44, 94), new_pos_sym='.', direction=1
+new_pos=(44, 95), new_pos_sym='.', direction=1
+new_pos=(44, 96), new_pos_sym='.', direction=1
+new_pos=(44, 97), new_pos_sym='.', direction=1
+new_pos=(44, 98), new_pos_sym='.', direction=1
+new_pos=(44, 99), new_pos_sym='.', direction=1
+new_pos=(44, 100), new_pos_sym='.', direction=1
+new_pos=(44, 101), new_pos_sym='.', direction=1
+new_pos=(44, 102), new_pos_sym='.', direction=1
+new_pos=(44, 103), new_pos_sym='.', direction=1
+new_pos=(44, 104), new_pos_sym='.', direction=1
+new_pos=(44, 105), new_pos_sym='.', direction=1
+new_pos=(44, 106), new_pos_sym='.', direction=1
+new_pos=(44, 107), new_pos_sym='.', direction=1
+new_pos=(44, 108), new_pos_sym='.', direction=1
+new_pos=(44, 109), new_pos_sym='-', direction=1
+one beam left the map
+new_pos=(53, 61), new_pos_sym='.', direction=-2
+new_pos=(54, 61), new_pos_sym='.', direction=-2
+new_pos=(55, 61), new_pos_sym='\\', direction=-2
+new_pos=(55, 62), new_pos_sym='.', direction=1
+new_pos=(55, 63), new_pos_sym='.', direction=1
+new_pos=(55, 64), new_pos_sym='.', direction=1
+new_pos=(55, 65), new_pos_sym='.', direction=1
+new_pos=(55, 66), new_pos_sym='.', direction=1
+new_pos=(55, 67), new_pos_sym='.', direction=1
+new_pos=(55, 68), new_pos_sym='.', direction=1
+new_pos=(55, 69), new_pos_sym='.', direction=1
+new_pos=(55, 70), new_pos_sym='.', direction=1
+new_pos=(55, 71), new_pos_sym='.', direction=1
+new_pos=(55, 72), new_pos_sym='.', direction=1
+new_pos=(55, 73), new_pos_sym='.', direction=1
+new_pos=(55, 74), new_pos_sym='.', direction=1
+new_pos=(55, 75), new_pos_sym='.', direction=1
+new_pos=(55, 76), new_pos_sym='.', direction=1
+new_pos=(55, 77), new_pos_sym='.', direction=1
+new_pos=(55, 78), new_pos_sym='.', direction=1
+new_pos=(55, 79), new_pos_sym='.', direction=1
+new_pos=(55, 80), new_pos_sym='.', direction=1
+new_pos=(55, 81), new_pos_sym='.', direction=1
+new_pos=(55, 82), new_pos_sym='.', direction=1
+new_pos=(55, 83), new_pos_sym='.', direction=1
+new_pos=(55, 84), new_pos_sym='.', direction=1
+new_pos=(55, 85), new_pos_sym='\\', direction=1
+new_pos=(56, 85), new_pos_sym='.', direction=-2
+new_pos=(57, 85), new_pos_sym='.', direction=-2
+new_pos=(58, 85), new_pos_sym='.', direction=-2
+new_pos=(59, 85), new_pos_sym='.', direction=-2
+new_pos=(60, 85), new_pos_sym='.', direction=-2
+new_pos=(61, 85), new_pos_sym='.', direction=-2
+new_pos=(62, 85), new_pos_sym='.', direction=-2
+new_pos=(63, 85), new_pos_sym='.', direction=-2
+new_pos=(64, 85), new_pos_sym='.', direction=-2
+new_pos=(65, 85), new_pos_sym='.', direction=-2
+new_pos=(66, 85), new_pos_sym='.', direction=-2
+new_pos=(67, 85), new_pos_sym='.', direction=-2
+new_pos=(68, 85), new_pos_sym='.', direction=-2
+new_pos=(69, 85), new_pos_sym='.', direction=-2
+new_pos=(70, 85), new_pos_sym='.', direction=-2
+new_pos=(71, 85), new_pos_sym='.', direction=-2
+new_pos=(72, 85), new_pos_sym='.', direction=-2
+new_pos=(73, 85), new_pos_sym='.', direction=-2
+new_pos=(74, 85), new_pos_sym='.', direction=-2
+new_pos=(75, 85), new_pos_sym='.', direction=-2
+new_pos=(76, 85), new_pos_sym='.', direction=-2
+new_pos=(77, 85), new_pos_sym='.', direction=-2
+new_pos=(78, 85), new_pos_sym='.', direction=-2
+new_pos=(79, 85), new_pos_sym='.', direction=-2
+new_pos=(80, 85), new_pos_sym='.', direction=-2
+new_pos=(81, 85), new_pos_sym='.', direction=-2
+new_pos=(82, 85), new_pos_sym='|', direction=-2
+new_pos=(83, 85), new_pos_sym='.', direction=-2
+new_pos=(84, 85), new_pos_sym='.', direction=-2
+new_pos=(85, 85), new_pos_sym='.', direction=-2
+new_pos=(86, 85), new_pos_sym='.', direction=-2
+new_pos=(87, 85), new_pos_sym='.', direction=-2
+new_pos=(88, 85), new_pos_sym='.', direction=-2
+new_pos=(89, 85), new_pos_sym='.', direction=-2
+new_pos=(90, 85), new_pos_sym='.', direction=-2
+new_pos=(91, 85), new_pos_sym='.', direction=-2
+new_pos=(92, 85), new_pos_sym='.', direction=-2
+new_pos=(93, 85), new_pos_sym='.', direction=-2
+new_pos=(94, 85), new_pos_sym='.', direction=-2
+new_pos=(95, 85), new_pos_sym='.', direction=-2
+new_pos=(96, 85), new_pos_sym='.', direction=-2
+new_pos=(97, 85), new_pos_sym='.', direction=-2
+new_pos=(98, 85), new_pos_sym='.', direction=-2
+new_pos=(99, 85), new_pos_sym='.', direction=-2
+new_pos=(100, 85), new_pos_sym='.', direction=-2
+new_pos=(101, 85), new_pos_sym='.', direction=-2
+new_pos=(102, 85), new_pos_sym='.', direction=-2
+new_pos=(103, 85), new_pos_sym='.', direction=-2
+new_pos=(104, 85), new_pos_sym='.', direction=-2
+new_pos=(105, 85), new_pos_sym='.', direction=-2
+new_pos=(106, 85), new_pos_sym='.', direction=-2
+new_pos=(107, 85), new_pos_sym='.', direction=-2
+new_pos=(108, 85), new_pos_sym='.', direction=-2
+new_pos=(109, 85), new_pos_sym='-', direction=-2
+new_pos=(109, 84), new_pos_sym='.', direction=-1
+new_pos=(109, 83), new_pos_sym='.', direction=-1
+new_pos=(109, 82), new_pos_sym='.', direction=-1
+new_pos=(109, 81), new_pos_sym='.', direction=-1
+new_pos=(109, 80), new_pos_sym='.', direction=-1
+new_pos=(109, 79), new_pos_sym='/', direction=-1
+one beam left the map
+new_pos=(109, 86), new_pos_sym='.', direction=1
+new_pos=(109, 87), new_pos_sym='.', direction=1
+new_pos=(109, 88), new_pos_sym='.', direction=1
+new_pos=(109, 89), new_pos_sym='.', direction=1
+new_pos=(109, 90), new_pos_sym='.', direction=1
+new_pos=(109, 91), new_pos_sym='.', direction=1
+new_pos=(109, 92), new_pos_sym='.', direction=1
+new_pos=(109, 93), new_pos_sym='.', direction=1
+new_pos=(109, 94), new_pos_sym='.', direction=1
+new_pos=(109, 95), new_pos_sym='.', direction=1
+new_pos=(109, 96), new_pos_sym='.', direction=1
+new_pos=(109, 97), new_pos_sym='.', direction=1
+new_pos=(109, 98), new_pos_sym='.', direction=1
+new_pos=(109, 99), new_pos_sym='.', direction=1
+new_pos=(109, 100), new_pos_sym='.', direction=1
+new_pos=(109, 101), new_pos_sym='.', direction=1
+new_pos=(109, 102), new_pos_sym='.', direction=1
+Traceback (most recent call last):
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 94, in <module>
+    assert input_sample_result == calculate(input)
+                                  ^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 45, in calculate
+    trace_light((0, -1), 1)
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 11 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 24 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 20 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 5 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 13 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 10 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 4 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 11 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 12 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 16 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 28 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 9 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 14 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 12 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 26 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 29 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 12 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 47 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 6 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 5 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 5 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 28 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 12 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 10 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 26 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 87, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 10 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 34 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 4 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 33 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 26 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 4 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 3 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 10 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 9 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 8 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 12 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 6 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 80, in trace_light
+    return (trace_light(new_pos, +2), trace_light(new_pos, -2))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 20 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 91, in trace_light
+    return trace_light(new_pos, new_direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 23 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 82, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 23 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 85, in trace_light
+    return (trace_light(new_pos, -1), trace_light(new_pos, 1))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 77, in trace_light
+    return trace_light(new_pos, direction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 14 more times]
+  File "/Users/daniel/git/adventofcode2023/day_16/energized_tiles.py", line 74, in trace_light
+    print(f"{new_pos=}, {new_pos_sym=}, {direction=}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded while getting the repr of an object

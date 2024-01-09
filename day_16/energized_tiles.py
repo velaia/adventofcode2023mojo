@@ -1,5 +1,4 @@
 import numpy as np
-import itertools
 
 
 """
@@ -116,7 +115,7 @@ def trace_light(current_pos, direction):
             trace_light_queue.append((new_pos, direction))
     else:
         # \ or /
-        new_direction = reflection_map.get(new_pos_sym).get(direction)
+        new_direction = reflection_map[new_pos_sym][direction]
         trace_light_queue.append((new_pos, new_direction))
 
 
